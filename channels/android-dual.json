@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "channel": "android-dual",
+  "description": "LeafLink Android with HAPLA and LeafLink device support",
+  "repository": "Prinz12/LeafLink-Updates",
+  "tag_prefix": "app-dual-v",
+  "manifest_asset": "app-version.json",
+  "package_name": "de.prinz.leaflink",
+  "signer_sha256": "66d08f0bf3ec06891fda6df9bfa7ce7f9a1016514a2f8e1169610639039b42fe",
+  "requires_private_repository_read_access": false
+}
