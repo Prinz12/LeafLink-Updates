@@ -1,13 +1,37 @@
-# LeafLink App-Updates
+# LeafLink Updates
 
-Öffentlicher Updatekanal für die LeafLink-Android-App mit HAPLA- und LeafLink-Unterstützung.
+Öffentlicher Updatekanal für die LeafLink-Android-App und die LeafLink-Firmware.
 
-APK und Updateinformationen stehen unter [Releases](https://github.com/Prinz12/LeafLink-Updates/releases).
+APK, Firmware als BIN und die zugehörigen Beschreibungen stehen unter [Releases](https://github.com/Prinz12/LeafLink-Updates/releases).
 Die App prüft diesen Kanal ohne Anmeldung oder GitHub-Token. Die Installation erhält
 die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokolls koppeln.
 
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-Dieses Repository enthält ausschließlich veröffentlichte APKs und Updateinformationen.
-Der Entwicklungsquellcode wird separat verwaltet. Die Firmware wird durch ein App-Update nicht verändert.
+## Firmware 3.2.0 Beta
+
+Die Firmware speichert den Aufstellraum getrennt von der Lüftungsgruppe. Ein Paar
+kann im selben Raum oder in verschiedenen Räumen arbeiten. Bestehende Kopplungen
+bleiben erhalten. Die Feuchteregelung berücksichtigt den höchsten gültigen
+Messwert der Gruppe.
+
+| Variante | Download und Beschreibung | Verwendung |
+| --- | --- | --- |
+| Normal | [A/B-Firmware 3.2.0 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.0-beta) | Betrieb mit aktiven Hardware-Ausgängen |
+| Safe | [A/B-Safe-Firmware 3.2.0 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.0-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
+
+Beide Varianten sind signierte Updates für bereits eingerichtete LeafLink-Geräte
+mit ESP8266 ESP-12F, 4 MiB Flash und A/B-Layout 2. Sie sind keine vollständigen
+Flash-Abbilder und nicht für Geräte mit Originalfirmware bestimmt. Das passende
+Profil muss beibehalten werden. Versionsinformationen und SHA-256-Prüfsummen
+liegen jeder Veröffentlichung bei. Der Download ist ohne Anmeldung möglich.
+
+Die Firmware-Suche der bereits veröffentlichten App 3.2.0 verwendet weiterhin
+den privaten Firmwarekanal. Die hier veröffentlichten BIN-Dateien sind zusätzlich
+direkt öffentlich verfügbar; diese Veröffentlichung ändert die installierte App nicht.
+
+Dieses Repository enthält ausschließlich Release-Beschreibungen und
+Updateinformationen; APKs und BIN-Dateien liegen als Release-Downloads bereit.
+Der Entwicklungsquellcode wird privat verwaltet. Die Firmware wird durch ein
+App-Update nicht verändert.

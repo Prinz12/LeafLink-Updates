@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "channel": "beta-ab-safe",
+  "description": "LeafLink A/B firmware with hardware outputs disabled",
+  "repository": "Prinz12/LeafLink-Updates",
+  "tag_prefix": "ab-safe-v",
+  "manifest_asset": "version.json",
+  "target": "esp8266-esp12f-4mb",
+  "profile": "safe",
+  "layout": 2,
+  "requires_private_repository_read_access": false
+}
