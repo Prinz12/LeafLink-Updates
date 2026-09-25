@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "channel": "android-dual",
+  "version_name": "3.2.1",
+  "version_code": 5,
+  "package_name": "de.prinz.leaflink",
+  "min_sdk": 23,
+  "release_date": "2026-09-25",
+  "apk": {
+    "file": "LeafLink-3.2.1.apk",
+    "size": 1090775,
+    "sha256": "330940b2265e7f9739906c3a72fbb167d574782b6af3e7f786e2f2c933824c6d",
+    "signer_sha256": "66d08f0bf3ec06891fda6df9bfa7ce7f9a1016514a2f8e1169610639039b42fe",
+    "url": "https://github.com/Prinz12/LeafLink-Updates/releases/download/app-dual-v3.2.1/LeafLink-3.2.1.apk"
+  }
+}

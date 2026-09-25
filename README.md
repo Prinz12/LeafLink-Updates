@@ -27,9 +27,11 @@ Flash-Abbilder und nicht für Geräte mit Originalfirmware bestimmt. Das passend
 Profil muss beibehalten werden. Versionsinformationen und SHA-256-Prüfsummen
 liegen jeder Veröffentlichung bei. Der Download ist ohne Anmeldung möglich.
 
-Die Firmware-Suche der bereits veröffentlichten App 3.2.0 verwendet weiterhin
-den privaten Firmwarekanal. Die hier veröffentlichten BIN-Dateien sind zusätzlich
-direkt öffentlich verfügbar; diese Veröffentlichung ändert die installierte App nicht.
+Ab App 3.2.1 erfolgen auch Firmware-Suche und BIN-Downloads über diesen öffentlichen
+Kanal ohne GitHub-Anmeldung. Unter Firmware-Updates „Beta-Versionen anzeigen“
+aktivieren, um die aktuelle Firmware 3.2.0 Beta zu sehen. Die App prüft Dateigröße,
+Prüfsumme, Signatur, Geräteprofil und A/B-Layout. Ältere App-Versionen zunächst
+über App-Update aktualisieren.
 
 Dieses Repository enthält ausschließlich Release-Beschreibungen und
 Updateinformationen; APKs und BIN-Dateien liegen als Release-Downloads bereit.
