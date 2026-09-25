@@ -9,6 +9,11 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+App 3.2.2 korrigiert einen Fehlalarm nach erfolgreichen Firmware-Updates auf 3.2.0.
+Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Geräte
+prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
+zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
+
 ## Firmware 3.2.0 Beta
 
 Die Firmware speichert den Aufstellraum getrennt von der Lüftungsgruppe. Ein Paar
