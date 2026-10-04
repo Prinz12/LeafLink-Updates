@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "channel": "wall-beta",
+  "description": "Leaf Wall Control ESP32 and Nextion updates",
+  "repository": "Prinz12/LeafLink-Updates",
+  "tag_prefix": "wall-v",
+  "manifest_asset": "manifest.json",
+  "board": "lilygo-t-display",
+  "flash_size": 16777216,
+  "display_model": "NX4827K043_011",
+  "requires_private_repository_read_access": false
+}
