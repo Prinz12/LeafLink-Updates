@@ -14,11 +14,14 @@ Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Ger
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
 zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
 
-## Firmware 3.2.1 Beta
+## Firmware 3.2.2 Beta
 
-3.2.1 ergänzt Direktfunk zum Wandbediengerät ohne Heim-WLAN-Router. Die Bindung
-bleibt nach Neustart erhalten; Gruppenbedienung und Gruppenwechsel funktionieren
-auch ohne DHCP-Adresse.
+3.2.2 ergänzt die Direktfunk-Erstaufnahme über Wall Control 0.5.0 mit
+physisch geöffnetem Kopplungsfenster, individuellem Einrichtungscode und
+Gruppenwahl. Bestehende Einstellungen bleiben erhalten. Ein vollständiger
+Erstkopplungstest mit fabrikneuer Hardware steht noch aus; diese Funktion
+ist als Beta zur Erprobung veröffentlicht. Die vorherige Direktfunksteuerung
+bereits eingerichteter Geräte bleibt enthalten.
 
 Die Firmware speichert den Aufstellraum getrennt von der Lüftungsgruppe. Ein Paar
 kann im selben Raum oder in verschiedenen Räumen arbeiten. Bestehende Kopplungen
@@ -27,8 +30,8 @@ Messwert der Gruppe.
 
 | Variante | Download und Beschreibung | Verwendung |
 | --- | --- | --- |
-| Normal | [A/B-Firmware 3.2.1 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.1-beta) | Betrieb mit aktiven Hardware-Ausgängen |
-| Safe | [A/B-Safe-Firmware 3.2.1 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.1-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
+| Normal | [A/B-Firmware 3.2.2 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.2-beta) | Betrieb mit aktiven Hardware-Ausgängen |
+| Safe | [A/B-Safe-Firmware 3.2.2 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.2-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
 
 Beide Varianten sind signierte Updates für bereits eingerichtete LeafLink-Geräte
 mit ESP8266 ESP-12F, 4 MiB Flash und A/B-Layout 2. Sie sind keine vollständigen
@@ -38,7 +41,7 @@ liegen jeder Veröffentlichung bei. Der Download ist ohne Anmeldung möglich.
 
 Ab App 3.2.1 erfolgen auch Firmware-Suche und BIN-Downloads über diesen öffentlichen
 Kanal ohne GitHub-Anmeldung. Unter Firmware-Updates „Beta-Versionen anzeigen“
-aktivieren, um die aktuelle Firmware 3.2.1 Beta zu sehen. Die App prüft Dateigröße,
+aktivieren, um die aktuelle Firmware 3.2.2 Beta zu sehen. Die App prüft Dateigröße,
 Prüfsumme, Signatur, Geräteprofil und A/B-Layout. Ältere App-Versionen zunächst
 über App-Update aktualisieren.
 
@@ -47,9 +50,9 @@ Updateinformationen; APKs und BIN-Dateien liegen als Release-Downloads bereit.
 Der Entwicklungsquellcode wird privat verwaltet. Die Firmware wird durch ein
 App-Update nicht verändert.
 
-## Wandbediengerät 0.4.0 Beta
+## Wandbediengerät 0.5.0 Beta
 
-[Update und Anleitung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.4.0-beta)
+[Update und Anleitung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.5.0-beta)
 für LILYGO T-Display (16 MiB) und Nextion NX4827K043_011.
 Kanal `wall-beta`, Tag-Präfix `wall-v`, Manifest `manifest.json`.
 Installation über die authentifizierte Weboberfläche; die Android-App filtert
