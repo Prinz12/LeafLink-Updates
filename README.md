@@ -16,7 +16,7 @@ zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkann
 
 ## Firmware 3.2.2 Beta
 
-3.2.2 ergänzt die Direktfunk-Erstaufnahme über Wall Control 0.5.0 mit
+3.2.2 ergänzt die Direktfunk-Erstaufnahme über Wall Control 0.5.1 mit
 physisch geöffnetem Kopplungsfenster, individuellem Einrichtungscode und
 Gruppenwahl. Bestehende Einstellungen bleiben erhalten. Ein vollständiger
 Erstkopplungstest mit fabrikneuer Hardware steht noch aus; diese Funktion
@@ -50,10 +50,12 @@ Updateinformationen; APKs und BIN-Dateien liegen als Release-Downloads bereit.
 Der Entwicklungsquellcode wird privat verwaltet. Die Firmware wird durch ein
 App-Update nicht verändert.
 
-## Wandbediengerät 0.5.0 Beta
+## Wandbediengerät 0.5.1 Beta
 
-[Update und Anleitung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.5.0-beta)
+[Update und Anleitung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.5.1-beta)
 für LILYGO T-Display (16 MiB) und Nextion NX4827K043_011.
 Kanal `wall-beta`, Tag-Präfix `wall-v`, Manifest `manifest.json`.
 Installation über die authentifizierte Weboberfläche; die Android-App filtert
 diesen separaten Kanal aus. HMI 302 bleibt unverändert.
+
+Wall Control 0.5.1 korrigiert den schnellen Rückwechsel ins Heim-WLAN unmittelbar nach einer Neugerätesuche. 0.5.0 wird dadurch ersetzt; bitte 0.5.1 verwenden.
