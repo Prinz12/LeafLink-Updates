@@ -14,7 +14,14 @@ Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Ger
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
 zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
 
-## Firmware 3.2.2 Beta
+## Firmware 3.2.3 Beta
+
+3.2.3 korrigiert die Direktfunkverbindung zur Wall Control nach einem
+Stromausfall: Regelmäßige Funkmeldungen werden auch ohne LAN-Adresse bestätigt
+und bei Paketverlust wiederholt. Die gespeicherte Wall-Zuordnung bleibt bei
+längerem Ausfall der Zentrale erhalten. Wall Control benötigt dafür kein Update.
+Die Softwaretests sind bestanden; ein physischer Stromausfalltest dieser
+Version an echten Lüftern steht aus.
 
 3.2.2 ergänzt die Direktfunk-Erstaufnahme über Wall Control 0.5.1 mit
 physisch geöffnetem Kopplungsfenster, individuellem Einrichtungscode und
@@ -30,8 +37,8 @@ Messwert der Gruppe.
 
 | Variante | Download und Beschreibung | Verwendung |
 | --- | --- | --- |
-| Normal | [A/B-Firmware 3.2.2 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.2-beta) | Betrieb mit aktiven Hardware-Ausgängen |
-| Safe | [A/B-Safe-Firmware 3.2.2 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.2-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
+| Normal | [A/B-Firmware 3.2.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.3-beta) | Betrieb mit aktiven Hardware-Ausgängen |
+| Safe | [A/B-Safe-Firmware 3.2.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.3-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
 
 Beide Varianten sind signierte Updates für bereits eingerichtete LeafLink-Geräte
 mit ESP8266 ESP-12F, 4 MiB Flash und A/B-Layout 2. Sie sind keine vollständigen
@@ -41,7 +48,7 @@ liegen jeder Veröffentlichung bei. Der Download ist ohne Anmeldung möglich.
 
 Ab App 3.2.1 erfolgen auch Firmware-Suche und BIN-Downloads über diesen öffentlichen
 Kanal ohne GitHub-Anmeldung. Unter Firmware-Updates „Beta-Versionen anzeigen“
-aktivieren, um die aktuelle Firmware 3.2.2 Beta zu sehen. Die App prüft Dateigröße,
+aktivieren, um die aktuelle Firmware 3.2.3 Beta zu sehen. Die App prüft Dateigröße,
 Prüfsumme, Signatur, Geräteprofil und A/B-Layout. Ältere App-Versionen zunächst
 über App-Update aktualisieren.
 
