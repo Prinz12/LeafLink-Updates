@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "version": "3.2.9-beta",
+  "display_version": "LeafLink 3.2.9 Beta",
+  "release_date": "2026-11-02",
+  "channel": "beta-ab-safe",
+  "target": "esp8266-esp12f-4mb",
+  "profile": "safe",
+  "layout": 2,
+  "requires_boot_layout": 2,
+  "image_sha256": "93930ef4c1ae8bb2f6d0afb4c70b3de27fa6ceff39c0d8bbb17e335994c0eae2",
+  "firmware": {
+    "file": "firmware-safe.bin",
+    "size": 686596,
+    "sha256": "ca9b726c62fc08b3694b529c5fe531614c8f6b79a36ecd6eb578203324bf72c2",
+    "url": "https://github.com/Prinz12/LeafLink-Updates/releases/download/ab-safe-v3.2.9-beta/firmware-safe.bin"
+  }
+}
