@@ -9,9 +9,11 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-## Android-App 3.3.1
+## Android-App 3.3.2
 
-[App 3.3.1 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.1).
+[App 3.3.2 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.2).
+3.3.2 korrigiert die OTA-Geräteerkennung und Gesundheitsprüfung bei ruhendem
+Mesh-Funknetz. Erreichbare WLAN-Geräte werden anhand ihrer eigenen Kennung geprüft.
 Die App nennt bei fehlenden Geräteantworten den betroffenen Kopplungsschritt
 und beschreibt das geschützte Einrichtungs-WLAN. Die Korrektur der dabei
 festgestellten ESP8266-Neustarts benötigt zusätzlich Firmware 3.3.1;
