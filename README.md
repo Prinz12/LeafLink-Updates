@@ -9,15 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-## Android-App 3.3.2
+## Android-App 3.3.3
 
-[App 3.3.2 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.2).
-3.3.2 korrigiert die OTA-Geräteerkennung und Gesundheitsprüfung bei ruhendem
-Mesh-Funknetz. Erreichbare WLAN-Geräte werden anhand ihrer eigenen Kennung geprüft.
-Die App nennt bei fehlenden Geräteantworten den betroffenen Kopplungsschritt
-und beschreibt das geschützte Einrichtungs-WLAN. Die Korrektur der dabei
-festgestellten ESP8266-Neustarts benötigt zusätzlich Firmware 3.3.1;
-das App-Update installiert keine Lüfterfirmware.
+[App 3.3.3 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.3).
+Bereits gekoppelte Handys öffnen die Gerätewebseite über **Einstellungen →
+verbundene Geräte → WEB** ohne erneute Codeeingabe. Dafür ist Firmware 3.3.4
+Beta erforderlich. Die App übergibt eine kurzlebige Freigabe; Gerätecode und
+Kopplungsschlüssel bleiben geschützt. Kopplungen, Hausplan und Einstellungen
+bleiben erhalten. Das App-Update allein installiert keine Lüfterfirmware.
 
 ### Sicherheitsumstellung ab App 3.3.0
 
@@ -36,30 +35,29 @@ Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Ger
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
 zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
 
-## Firmware 3.3.3 Beta
+## Firmware 3.3.4 Beta
 
-[Signierte Hardware-Firmware 3.3.3 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.3-beta).
-Korrigiert die Speicherprüfung für A/B-Updates. Zusammen mit App 3.3.2 werden
-WLAN-Geräte auch ohne aktives Mesh korrekt erkannt. Wenn ältere Firmware OTA
-bereits wegen Speichermangels blockiert, ist einmalig eine datenerhaltende
-USB-Serviceinstallation erforderlich.
+[Signierte Hardware-Firmware 3.3.4 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.4-beta).
+Die Suche nach der zugeordneten Wall trennt ein funktionierendes WLAN nicht mehr.
+Die vorhandene Wall-Zuordnung und gespeicherte Daten bleiben erhalten. Die
+Weboberfläche unterstützt die automatische Freigabe durch App 3.3.3 sowie
+alternativ den Gerätecode und eine optional gespeicherte Browsersitzung.
 
-Der finale OTA-Weg auf 3.3.3 wurde mit App 3.3.2 auf einer echten Platine
-nach der erforderlichen Service-Reparatur erfolgreich geprüft: Download,
-Signaturprüfung, Neustart, dauerhafte A/B-Bestätigung und unveränderte
-Einstellungen einschließlich Hausplan. Eine zweite Testplatine erhielt
-denselben finalen Build datenerhaltend per USB.
+Die OTA-Speicherkorrekturen aus 3.3.3 bleiben enthalten. Eine sparsamere
+Web-Routenverwaltung erhält den nötigen Arbeitsspeicher. Bei älteren Versionen,
+die schon vor dem Upload an Speichermangel scheitern, ist einmalig eine
+datenerhaltende USB-Serviceinstallation erforderlich.
 
 In der App **Firmware-Updates → Beta-Versionen anzeigen → nach Updates suchen**.
 Voraussetzung: Hardwareprofil, ESP8266 ESP-12F mit 4 MiB Flash und bestehendes
 A/B-Layout 2. Die App prüft Profil, Layout, Größe, Hash und Signatur.
-Für 3.3.3 wird kein Safe-Profil mehr angeboten; historische Releases bleiben erhalten.
+Für 3.3.4 wird kein Safe-Profil mehr angeboten; historische Releases bleiben erhalten.
 
 Beim Wechsel von 3.2.x zuerst App 3.3.1 installieren und den individuellen
 Gerätecode für die anschließende physisch freigegebene Kopplung bereithalten.
 Bestehende Wall-Anlagen benötigen eine abgestimmte Sicherheitsumstellung;
 die Voraussetzungen und der begrenzte Hardwareprüfstand stehen in der
-[Updatebeschreibung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.3-beta).
+[Updatebeschreibung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.4-beta).
 Das App-Update allein installiert keine Lüfterfirmware.
 
 Dieses Repository enthält ausschließlich Release-Beschreibungen und
