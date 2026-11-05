@@ -44,6 +44,12 @@ WLAN-Geräte auch ohne aktives Mesh korrekt erkannt. Wenn ältere Firmware OTA
 bereits wegen Speichermangels blockiert, ist einmalig eine datenerhaltende
 USB-Serviceinstallation erforderlich.
 
+Der finale OTA-Weg auf 3.3.3 wurde mit App 3.3.2 auf einer echten Platine
+nach der erforderlichen Service-Reparatur erfolgreich geprüft: Download,
+Signaturprüfung, Neustart, dauerhafte A/B-Bestätigung und unveränderte
+Einstellungen einschließlich Hausplan. Eine zweite Testplatine erhielt
+denselben finalen Build datenerhaltend per USB.
+
 In der App **Firmware-Updates → Beta-Versionen anzeigen → nach Updates suchen**.
 Voraussetzung: Hardwareprofil, ESP8266 ESP-12F mit 4 MiB Flash und bestehendes
 A/B-Layout 2. Die App prüft Profil, Layout, Größe, Hash und Signatur.
