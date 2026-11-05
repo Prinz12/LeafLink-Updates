@@ -9,7 +9,15 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-## Android-App 3.3.0
+## Android-App 3.3.1
+
+[App 3.3.1 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.1).
+Die App nennt bei fehlenden Geräteantworten den betroffenen Kopplungsschritt
+und beschreibt das geschützte Einrichtungs-WLAN. Die Korrektur der dabei
+festgestellten ESP8266-Neustarts benötigt zusätzlich Firmware 3.3.1;
+das App-Update installiert keine Lüfterfirmware.
+
+### Sicherheitsumstellung ab App 3.3.0
 
 [App 3.3.0 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.0).
 Die Version ergänzt Gerätecode-/QR-Kopplung, verschlüsselte LeafLink-Steuerung,
