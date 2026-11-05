@@ -36,22 +36,24 @@ Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Ger
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
 zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
 
-## Firmware 3.3.1 Beta
+## Firmware 3.3.2 Beta
 
-[Signierte Hardware-Firmware 3.3.1 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.1-beta).
-Behebt ausbleibende geschützte Kopplungsantworten und ESP8266-Neustarts bei
-Geräteabfragen. Das Paket wurde mit App 3.3.1 auf echter Hardware geprüft.
+[Signierte Hardware-Firmware 3.3.2 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.2-beta).
+Korrigiert die Speicherprüfung für A/B-Updates. Zusammen mit App 3.3.2 werden
+WLAN-Geräte auch ohne aktives Mesh korrekt erkannt. Wenn ältere Firmware OTA
+bereits wegen Speichermangels blockiert, ist einmalig eine datenerhaltende
+USB-Serviceinstallation erforderlich.
 
 In der App **Firmware-Updates → Beta-Versionen anzeigen → nach Updates suchen**.
 Voraussetzung: Hardwareprofil, ESP8266 ESP-12F mit 4 MiB Flash und bestehendes
 A/B-Layout 2. Die App prüft Profil, Layout, Größe, Hash und Signatur.
-Für 3.3.1 wird kein Safe-Profil mehr angeboten; historische Releases bleiben erhalten.
+Für 3.3.2 wird kein Safe-Profil mehr angeboten; historische Releases bleiben erhalten.
 
 Beim Wechsel von 3.2.x zuerst App 3.3.1 installieren und den individuellen
 Gerätecode für die anschließende physisch freigegebene Kopplung bereithalten.
 Bestehende Wall-Anlagen benötigen eine abgestimmte Sicherheitsumstellung;
 die Voraussetzungen und der begrenzte Hardwareprüfstand stehen in der
-[Updatebeschreibung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.1-beta).
+[Updatebeschreibung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.2-beta).
 Das App-Update allein installiert keine Lüfterfirmware.
 
 Dieses Repository enthält ausschließlich Release-Beschreibungen und
