@@ -9,14 +9,18 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-## Android-App 3.3.3
+## Android-App 3.3.4
 
-[App 3.3.3 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.3).
-Bereits gekoppelte Handys öffnen die Gerätewebseite über **Einstellungen →
-verbundene Geräte → WEB** ohne erneute Codeeingabe. Dafür ist Firmware 3.3.4
-Beta erforderlich. Die App übergibt eine kurzlebige Freigabe; Gerätecode und
-Kopplungsschlüssel bleiben geschützt. Kopplungen, Hausplan und Einstellungen
-bleiben erhalten. Das App-Update allein installiert keine Lüfterfirmware.
+[App 3.3.4 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.4).
+Behebt verfrühte Meldungen „Keine vollständige Rückmeldung“ bei der
+Gruppensteuerung. Die App bestätigt erst die passenden Antworten aller
+angesprochenen Geräte, sendet Befehle in Reihenfolge und berücksichtigt den
+Mindestabstand geschützter Anmeldungen. Für diese Korrektur ist kein neues
+Firmwareupdate erforderlich.
+
+Die automatische Web-Anmeldung über **Einstellungen → verbundene Geräte → WEB**
+bleibt enthalten und benötigt Firmware 3.3.4 Beta. Kopplungen, Hausplan und
+Einstellungen bleiben erhalten. Das App-Update installiert keine Lüfterfirmware.
 
 ### Sicherheitsumstellung ab App 3.3.0
 
