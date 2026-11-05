@@ -34,48 +34,27 @@ Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Ger
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
 zu übertragen. Änderungen an vorhandenen Einstellungen werden weiterhin erkannt.
 
-## Firmware 3.2.3 Beta
+## Firmware 3.3.1 Beta
 
-3.2.3 korrigiert die Direktfunkverbindung zur Wall Control nach einem
-Stromausfall: Regelmäßige Funkmeldungen werden auch ohne LAN-Adresse bestätigt
-und bei Paketverlust wiederholt. Die gespeicherte Wall-Zuordnung bleibt bei
-längerem Ausfall der Zentrale erhalten. Wall Control benötigt dafür kein Update.
-Die Softwaretests sind bestanden; ein physischer Stromausfalltest dieser
-Version an echten Lüftern steht aus.
+[Signierte Hardware-Firmware 3.3.1 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.1-beta).
+Behebt ausbleibende geschützte Kopplungsantworten und ESP8266-Neustarts bei
+Geräteabfragen. Das Paket wurde mit App 3.3.1 auf echter Hardware geprüft.
 
-3.2.2 ergänzt die Direktfunk-Erstaufnahme über Wall Control 0.5.1 mit
-physisch geöffnetem Kopplungsfenster, individuellem Einrichtungscode und
-Gruppenwahl. Bestehende Einstellungen bleiben erhalten. Ein vollständiger
-Erstkopplungstest mit fabrikneuer Hardware steht noch aus; diese Funktion
-ist als Beta zur Erprobung veröffentlicht. Die vorherige Direktfunksteuerung
-bereits eingerichteter Geräte bleibt enthalten.
+In der App **Firmware-Updates → Beta-Versionen anzeigen → nach Updates suchen**.
+Voraussetzung: Hardwareprofil, ESP8266 ESP-12F mit 4 MiB Flash und bestehendes
+A/B-Layout 2. Die App prüft Profil, Layout, Größe, Hash und Signatur.
+Für 3.3.1 wird kein Safe-Profil mehr angeboten; historische Releases bleiben erhalten.
 
-Die Firmware speichert den Aufstellraum getrennt von der Lüftungsgruppe. Ein Paar
-kann im selben Raum oder in verschiedenen Räumen arbeiten. Bestehende Kopplungen
-bleiben erhalten. Die Feuchteregelung berücksichtigt den höchsten gültigen
-Messwert der Gruppe.
-
-| Variante | Download und Beschreibung | Verwendung |
-| --- | --- | --- |
-| Normal | [A/B-Firmware 3.2.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.2.3-beta) | Betrieb mit aktiven Hardware-Ausgängen |
-| Safe | [A/B-Safe-Firmware 3.2.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-safe-v3.2.3-beta) | Testbetrieb mit deaktivierten Hardware-Ausgängen |
-
-Beide Varianten sind signierte Updates für bereits eingerichtete LeafLink-Geräte
-mit ESP8266 ESP-12F, 4 MiB Flash und A/B-Layout 2. Sie sind keine vollständigen
-Flash-Abbilder und nicht für Geräte mit Originalfirmware bestimmt. Das passende
-Profil muss beibehalten werden. Versionsinformationen und SHA-256-Prüfsummen
-liegen jeder Veröffentlichung bei. Der Download ist ohne Anmeldung möglich.
-
-Ab App 3.2.1 erfolgen auch Firmware-Suche und BIN-Downloads über diesen öffentlichen
-Kanal ohne GitHub-Anmeldung. Unter Firmware-Updates „Beta-Versionen anzeigen“
-aktivieren, um die aktuelle Firmware 3.2.3 Beta zu sehen. Die App prüft Dateigröße,
-Prüfsumme, Signatur, Geräteprofil und A/B-Layout. Ältere App-Versionen zunächst
-über App-Update aktualisieren.
+Beim Wechsel von 3.2.x zuerst App 3.3.1 installieren und den individuellen
+Gerätecode für die anschließende physisch freigegebene Kopplung bereithalten.
+Bestehende Wall-Anlagen benötigen eine abgestimmte Sicherheitsumstellung;
+die Voraussetzungen und der begrenzte Hardwareprüfstand stehen in der
+[Updatebeschreibung](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.1-beta).
+Das App-Update allein installiert keine Lüfterfirmware.
 
 Dieses Repository enthält ausschließlich Release-Beschreibungen und
-Updateinformationen; APKs und BIN-Dateien liegen als Release-Downloads bereit.
-Der Entwicklungsquellcode wird privat verwaltet. Die Firmware wird durch ein
-App-Update nicht verändert.
+Updateinformationen; APKs und signierte BIN-Dateien liegen als Release-Downloads
+bereit. Quellcode, Schlüssel und Gerätesicherungen werden nicht veröffentlicht.
 
 ## Wandbediengerät 0.5.1 Beta
 
