@@ -9,6 +9,18 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Android-App 3.3.0
+
+[App 3.3.0 herunterladen und Updatebeschreibung lesen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.0).
+Die Version ergänzt Gerätecode-/QR-Kopplung, verschlüsselte LeafLink-Steuerung,
+Handyzugänge und die Übernahme eines Wall-Funknetzes. Die vorhandene App erkennt
+sie über **App-Update**. Android-Paket und Release-Signatur bleiben gleich.
+
+Die LeafLink-Steuerung benötigt Firmware 3.3.0 und eine einmalige Kopplung mit
+dem Gerätecode. Bei älterer LeafLink-Firmware zuerst die Sicherheitsumstellung
+vorbereiten; das App-Update allein aktualisiert keine Lüfter. HAPLA wird weiterhin
+separat unterstützt. Hinweise zur Wall-Migration stehen in der Updatebeschreibung.
+
 App 3.2.2 korrigiert einen Fehlalarm nach erfolgreichen Firmware-Updates auf 3.2.0.
 Bei einer bereits bestätigten Installation schließt **Firmware-Updates → Geräte
 prüfen** den gespeicherten Vorgang durch Auslesen ab, ohne die Firmware erneut
