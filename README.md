@@ -9,7 +9,21 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
-## Wall 0.6.2 und Lüfter-Firmware 3.3.6 Beta
+## WLAN-Rückkehr: App 3.3.5 und Firmware 3.3.7 Beta
+
+[Android-App 3.3.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.5)
+und [Lüfter-Firmware 3.3.7 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.7-beta)
+beheben die ausbleibende Wiedererkennung nach „Gespeichertes WLAN beibehalten“.
+Die Firmware initialisiert das Funkmodul beim Verlassen des Einrichtungs-WLANs
+vollständig neu. Die App prüft zusätzlich bekannte Geräteadressen direkt und
+bevorzugt Bedienbefehle vor wartenden Hintergrundabfragen.
+
+Für die vollständige Korrektur beide Updates installieren. In **Firmware-Updates**
+die Beta-Versionen einschließen. Kopplungen, WLAN-Daten, Hauspläne und Einstellungen
+bleiben erhalten. App- und Firmwareupdate erfolgen getrennt; ein Werksreset ist
+nicht erforderlich. Wall Control 0.6.2 bleibt aktuell.
+
+## Wall 0.6.2 und Lüfter-Firmware ab 3.3.6 Beta
 
 [Wall Control 0.6.2](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.2-beta)
 und [Lüfter-Firmware 3.3.6](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.6-beta)
@@ -18,13 +32,13 @@ Bestätigung der Wall-Bedienung. Für die vollständige Korrektur beide Seiten
 aktualisieren. Gemessen wurden rund 18,5 Sekunden in den Direktfunk und
 25–33 Sekunden zurück ins WLAN, statt zuvor über 100 Sekunden.
 
-Die Android-App bleibt bei 3.3.4. Für die Lüfter in **Firmware-Updates**
+Die aktuelle Android-App ist 3.3.5. Für die Lüfter in **Firmware-Updates**
 Beta-Versionen einschließen und die Version erneut prüfen. Vorhandene
 Zuordnungen und Einstellungen bleiben erhalten. Beim Umstieg von Wall 0.5.x
 auf das geschützte Funkprotokoll 2 die Migrationshinweise im Wall-Release
 beachten; bereits migrierte 0.6.x-Anlagen benötigen keine erneute Kopplung.
 
-## Android-App 3.3.4
+## Enthaltene Verbesserungen aus Android-App 3.3.4
 
 [App 3.3.4 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.4).
 Behebt verfrühte Meldungen „Keine vollständige Rückmeldung“ bei der
