@@ -9,6 +9,21 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Wall 0.6.2 und Lüfter-Firmware 3.3.6 Beta
+
+[Wall Control 0.6.2](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.2-beta)
+und [Lüfter-Firmware 3.3.6](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.6-beta)
+verkürzen den Wechsel zwischen WLAN und Direktfunk und verbessern die
+Bestätigung der Wall-Bedienung. Für die vollständige Korrektur beide Seiten
+aktualisieren. Gemessen wurden rund 18,5 Sekunden in den Direktfunk und
+25–33 Sekunden zurück ins WLAN, statt zuvor über 100 Sekunden.
+
+Die Android-App bleibt bei 3.3.4. Für die Lüfter in **Firmware-Updates**
+Beta-Versionen einschließen und die Version erneut prüfen. Vorhandene
+Zuordnungen und Einstellungen bleiben erhalten. Beim Umstieg von Wall 0.5.x
+auf das geschützte Funkprotokoll 2 die Migrationshinweise im Wall-Release
+beachten; bereits migrierte 0.6.x-Anlagen benötigen keine erneute Kopplung.
+
 ## Android-App 3.3.4
 
 [App 3.3.4 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.4).

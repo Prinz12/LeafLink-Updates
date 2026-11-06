@@ -1,0 +1,17 @@
+{
+  "version": "0.6.2",
+  "board": "lilygo-t-display",
+  "protocol": 2,
+  "firmware": {
+    "file": "leaf-wall-control-0.6.2.bin",
+    "size": 1071216,
+    "sha256": "bcf66f579e170b8d8741ac49dca02934c6c65cb9745e1fc56ebb4ce81923daf2"
+  },
+  "display": {
+    "file": "leaf-wall-control-0.3.0.tft",
+    "size": 620860,
+    "sha256": "46ff6ff92c53c4c122855bd2c8eccfa36776de15182d57e8b8faebe4ac1f3b2c",
+    "model": "NX4827K043_011",
+    "hmiVersion": 302
+  }
+}
