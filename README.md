@@ -9,6 +9,24 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Lebensdauer und Nutzung: App und Firmware 3.3.8
+
+[Android-App 3.3.8](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.8)
+und [Lüfter-Firmware 3.3.8 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.8-beta)
+ergänzen unter **Einstellungen → Gespeicherte Lüfter → Lebensdauer & Nutzung**
+ein separates Menü für jeden Lüfter. Laufzeit, Stillstand, lange Unterbrechungen
+und Feuchtestillstand werden ab Firmwareinstallation erfasst. Stromlose Zeiten
+sind als Netzzeit-Schätzung gekennzeichnet; die Anzeige ist kein Beweiszähler.
+
+Die Zähler überstehen normale Firmwareupdates und Werkseinstellungen. Es gibt
+keine Rücksetzfunktion. Bei plötzlichem Stromausfall kann der Abschnitt seit dem
+letzten Fünf-Minuten-Checkpoint fehlen. Vollständiges Flashlöschen oder fremde
+Firmware können die Daten weiterhin verändern. Details stehen in den Releases.
+
+Neue Builds und Updatepfade unterstützen ausschließlich echte Hardware.
+Der aktive Safe-Kanal wurde entfernt; historische Releases bleiben erhalten.
+Wall Control 0.6.2 benötigt für diese Statistik kein Update.
+
 ## WLAN-Rückkehr: App 3.3.5 und Firmware 3.3.7 Beta
 
 [Android-App 3.3.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.5)
@@ -32,7 +50,7 @@ Bestätigung der Wall-Bedienung. Für die vollständige Korrektur beide Seiten
 aktualisieren. Gemessen wurden rund 18,5 Sekunden in den Direktfunk und
 25–33 Sekunden zurück ins WLAN, statt zuvor über 100 Sekunden.
 
-Die aktuelle Android-App ist 3.3.5. Für die Lüfter in **Firmware-Updates**
+Für die Lüfter in **Firmware-Updates**
 Beta-Versionen einschließen und die Version erneut prüfen. Vorhandene
 Zuordnungen und Einstellungen bleiben erhalten. Beim Umstieg von Wall 0.5.x
 auf das geschützte Funkprotokoll 2 die Migrationshinweise im Wall-Release
