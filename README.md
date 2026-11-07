@@ -9,6 +9,18 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Firmware 3.3.11 Beta: Neustartkorrektur bei App-Abfragen
+
+[Lüfter-Firmware 3.3.11 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.11-beta)
+behebt einen Stacküberlauf bei geschützten App-Abfragen und spart dabei
+656 Byte Stack. Die bisherigen OTA-RAM-Verbesserungen, serielle Diagnose und
+Flasher-Protokolle bleiben erhalten. Zwei Lüfter absolvierten jeweils einen
+30-Minuten-Lasttest und die anschließende Ruhephase ohne Neustart.
+
+In **Firmware-Updates** die **Beta-Versionen einschließen**, dann die Version
+prüfen und die Firmware herunterladen. Einstellungen und Kopplungen bleiben
+erhalten; ein zusätzliches App- oder Wall-Control-Update ist nicht erforderlich.
+
 ## Firmware 3.3.10 Beta: Stabile Raumabfragen
 
 [Lüfter-Firmware 3.3.10 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.10-beta)
