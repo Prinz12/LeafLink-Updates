@@ -9,6 +9,18 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Firmware 3.3.9 Beta: Mehr RAM für OTA-Updates
+
+[Lüfter-Firmware 3.3.9 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.9-beta)
+schafft während OTA rund 10 KiB zusätzliche RAM-Reserve und reduziert häufige
+Debug-Ausgaben. Serielle Diagnose, Flasher-Protokolle und die vorhandenen
+Schutzprüfungen bleiben erhalten. Einstellungen und Nutzungszähler bleiben bei
+normalen Updates erhalten.
+
+In **Firmware-Updates** die **Beta-Versionen einschließen**, dann die Version
+prüfen und die Firmware herunterladen. Dafür ist kein zusätzliches App- oder
+Wall-Control-Update erforderlich.
+
 ## Lebensdauer und Nutzung: App und Firmware 3.3.8
 
 [Android-App 3.3.8](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.8)
