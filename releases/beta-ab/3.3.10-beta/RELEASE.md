@@ -17,7 +17,10 @@ Neustart und 1499 gültige Antworten. Eine einzelne UDP-Zeitüberschreitung blie
 ohne Neustart; die folgenden Abfragen funktionierten wieder. Ein zweiter Lüfter
 beantwortete 500 von 500 Abfragen. 201 Hosttests, 49 native Regressionstests, Protokollvergleich,
 Hardwarebuild und erweiterte Stack-Audits bestanden.
-Ein mehrtägiger Dauertest ist damit nicht ersetzt.
+Ein mehrtägiger Dauertest ist damit nicht ersetzt. Dieses Update adressiert
+den reproduzierten Raumabfrage-Watchdog. Weitere Neustartursachen sind noch
+nicht ausgeschlossen; eine vollständige Behebung sämtlicher Verbindungs-
+und Neustartprobleme ist damit nicht bestätigt.
 
 Kopplungen, WLAN-Daten, Hausplan, Nutzungszähler und Einstellungen bleiben bei
 normalen Firmwareupdates erhalten. Kein Werksreset und kein zusätzliches
