@@ -9,6 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.11: Weitere Lüfter mit denselben WLAN-Daten
+
+[Android-App 3.3.11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.11)
+ergänzt **Weiteren Lüfter hinzufügen** nach erfolgreicher WLAN-Einrichtung.
+Ziel-WLAN und Passwort bleiben für die laufende Einrichtungsrunde verfügbar;
+der Gerätecode wird für jeden LeafLink-Lüfter neu abgefragt. Der Fehler beim
+Wechsel über **Neue Einrichtung** ist behoben. Update über **App-Update**.
+
 ## Wall Control 0.6.4 Beta: Rollen je Lüfter
 
 [Wall Control 0.6.4 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.4-beta)
