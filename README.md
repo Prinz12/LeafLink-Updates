@@ -9,6 +9,13 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Wall Control 0.6.3 Beta: Rollen bleiben nach Neustarts erhalten
+
+[Wall Control 0.6.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.3-beta)
+behält Repeater und Automatik nach einem Neustart und speichert die vollständige
+Zielrolle vor der Netzübergabe. Inventar, Gruppen und Einstellungen bleiben erhalten.
+Nextion HMI 302 ist unverändert; ein Display-Update ist nicht erforderlich.
+
 ## Firmware 3.3.11 Beta: Neustartkorrektur bei App-Abfragen
 
 [Lüfter-Firmware 3.3.11 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.11-beta)
