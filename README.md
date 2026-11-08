@@ -9,6 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.13: Lüfter schneller wiederfinden
+
+[Android-App 3.3.13](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.13)
+sucht fehlende bekannte Lüfter bei geöffneter App alle fünf Sekunden erneut.
+Langsame oder ausgeschaltete Geräte blockieren die schnelle Suche und Status-Pings
+anderer Geräte nicht mehr. Direkt auf einem Samsung-Handy geprüft; Update über
+**App-Update** mit erhaltenen Einstellungen.
+
 ## Firmware 3.3.13 Beta: Werksreset über die Gerätetaste
 
 [Firmware 3.3.13 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.13-beta)
