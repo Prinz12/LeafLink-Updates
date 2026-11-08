@@ -9,6 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.15: Gruppen wechseln und freie Partnerplätze wählen
+
+[Android-App 3.3.15](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.15)
+ergänzt **Gruppe ändern** direkt an erreichbaren Lüftern in der Raumübersicht.
+Bei der Neueinrichtung werden passende bestehende Gruppen ohne Partner angeboten.
+Offline-Mitglieder und die bereits eingerichteten Lüfter derselben Runde werden
+bei der Belegung berücksichtigt. Update über **App-Update**.
+
 ## App 3.3.14: Stromlose Lüfter schneller erkennen
 
 [Android-App 3.3.14](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.14)
