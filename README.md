@@ -9,6 +9,15 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Firmware 3.3.13 Beta: Werksreset über die Gerätetaste
+
+[Firmware 3.3.13 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.13-beta)
+ergänzt einen bestätigten Werksreset: 15 Sekunden halten und loslassen, dann
+innerhalb von 10 Sekunden erneut 4 Sekunden halten und loslassen. Gerätecode,
+Betriebsstunden und Filterlaufzeit bleiben erhalten. Das normale Update erhält
+alle Einstellungen. Der reale Tastentest steht noch aus; die automatisierten
+Tasten-, Speicher- und Regressionstests bestanden.
+
 ## App 3.3.12: Robustere Lüfteranmeldung
 
 [Android-App 3.3.12](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.12)
