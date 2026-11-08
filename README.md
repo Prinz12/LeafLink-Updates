@@ -9,6 +9,13 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Wall Control 0.6.4 Beta: Rollen je Lüfter
+
+[Wall Control 0.6.4 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.4-beta)
+zeigt unter **Lüfter / Gruppen** sowie in der Web-Geräteverwaltung Router/Repeater,
+Auto/Manuell und den Repeater-Nachbarn. Alte Werte sind als „zuletzt“ gekennzeichnet.
+Inventar und Einstellungen bleiben erhalten; kein TFT-Update erforderlich.
+
 ## App 3.3.10 und Firmware 3.3.12 Beta: Netzwerkrollen und Repeater
 
 [Android-App 3.3.10](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.10)
