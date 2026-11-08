@@ -9,6 +9,11 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.16 und Firmware 3.3.14 Beta: Rollen und Richtung
+
+[Android 3.3.16](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.16) aktualisiert Master/Slave nach der Gruppenzuordnung schneller und ergänzt die Auswahl **Automatisch / Router / Repeater**.
+[Firmware 3.3.14 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.14-beta) erhält die gewählte Netzwerkrolle nach Neustarts und ergänzt automatische IN/OUT-Paare mit IN als Einzelgeräte-Standard. Manuelle Richtungen bleiben erhalten. Beide Updates sind für den vollständigen Funktionsumfang erforderlich.
+
 ## App 3.3.15: Gruppen wechseln und freie Partnerplätze wählen
 
 [Android-App 3.3.15](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.15)
