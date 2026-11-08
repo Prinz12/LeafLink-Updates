@@ -9,6 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.14: Stromlose Lüfter schneller erkennen
+
+[Android-App 3.3.14](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.14)
+erkennt dauerhaft fehlende Antworten bei geöffneter App normalerweise nach etwa
+10–15 Sekunden. Einzelne verlorene Antworten werden toleriert; gespeicherte
+Zuordnungen bleiben erhalten. Auf einem Samsung-Handy mit simuliertem Antwortausfall
+geprüft. Update über **App-Update**.
+
 ## App 3.3.13: Lüfter schneller wiederfinden
 
 [Android-App 3.3.13](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.13)
