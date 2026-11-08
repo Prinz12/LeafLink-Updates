@@ -9,6 +9,21 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.10 und Firmware 3.3.12 Beta: Netzwerkrollen und Repeater
+
+[Android-App 3.3.10](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.10)
+zeigt unter **Gespeicherte Lüfter** Router, Repeater, deren Gateway sowie
+Automatik/Handrolle. Alte Werte sind ausdrücklich als „zuletzt“ gekennzeichnet.
+
+[Lüfter-Firmware 3.3.12 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.12-beta)
+korrigiert den manuellen Repeater-Test bei Wall-Kopplung und ergänzt einen
+begrenzten automatischen Funkversuch bei anhaltend schwachem WLAN und einem
+Gateway mit besserem WLAN-Empfang. Reale Weiterleitung und Steuerung wurden geprüft;
+die Signalauslösung wurde simuliert, ein Reichweiten-Dauertest steht aus.
+
+App-Update über **App-Update**, Lüfterupdate über **Firmware-Updates** mit
+eingeschlossenen Beta-Versionen. Einstellungen und Kopplungen bleiben erhalten.
+
 ## Wall Control 0.6.3 Beta: Rollen bleiben nach Neustarts erhalten
 
 [Wall Control 0.6.3 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.3-beta)
