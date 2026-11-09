@@ -9,6 +9,12 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.18 und Firmware 3.3.17 Beta
+
+[Android 3.3.18](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.18) filtert vorübergehende Fehler aus den Meldungen, zeigt einen dauerhaften Updatehinweis und unterstützt Webzugang sowie Hausplansicherung über Repeater.
+
+[Firmware 3.3.17 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.17-beta) ergänzt die verschlüsselte Repeater-Hausplansicherung und korrigiert die Webanmeldung bei knappem Gerätespeicher. Beide Updates zusammen installieren; Wall 0.6.5 Beta bleibt aktuell. Während Firmware-Updates die App nicht vollständig schließen oder wegwischen und das Handy im WLAN lassen.
+
 ## App 3.3.17, Firmware 3.3.16 Beta und Wall 0.6.5 Beta
 
 [Android 3.3.17](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.17) korrigiert Gruppennamen und die Anordnung der Geräteeinstellungen; Richtung und Netzwerkrollenwechsel werden im offenen Dialog nachgelesen.
