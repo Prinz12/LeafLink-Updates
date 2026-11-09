@@ -9,6 +9,14 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Sommerautomatik: Firmware 3.3.18 Beta, App 3.3.20 und Wall 0.6.6 Beta
+
+[Firmware 3.3.18 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.18-beta) regelt die Sommerautomatik direkt auf den Lüftern: kurze Messläufe erfassen Innen- und Außenluft, anschließend wird innerhalb der Gruppe die kühlere geeignete Zuluftseite gewählt. Dauerhafte Kühlung startet oberhalb 23 °C innen bei mindestens 2 °C kühlerer Außenluft. Die Messläufe finden beim Start und alle fünf Minuten statt und können kurzzeitig wärmere Außenluft ansaugen.
+
+Der eigene Modus ist über [Android 3.3.20](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.20), die Lüfter-Weboberfläche sowie [Wall Control 0.6.6 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.6-beta) auswählbar. Alle beteiligten Lüfter aktualisieren; mindestens zwei kompatible Geräte in derselben Gruppe sind erforderlich. App und Wall müssen für den laufenden Betrieb nicht eingeschaltet bleiben. Das Nextion-Display benötigt kein TFT-Update.
+
+Software-, Build-, Protokoll-, Browser- und Emulatorprüfungen bestanden. Das thermische Verhalten im realen Haus ist noch nicht praktisch erprobt. Die Veröffentlichung installiert keine Geräte automatisch.
+
 ## App 3.3.19: Mehrere Lüfter gezielt einrichten
 
 [Android 3.3.19](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.19) wählt bei gleichnamigen Einrichtungsnetzen gezielt den passenden Lüfter. QR-Code oder manuelle Eingabe von Gerätenummer und Gerätecode werden unterstützt. Ziel-WLAN und Passwort bleiben für weitere Lüfter derselben Einrichtungsrunde verfügbar. Fünf zusätzliche Lüfter wurden nacheinander am echten Handy erfolgreich eingerichtet; die App zeigte danach alle drei Paare vollständig an.
