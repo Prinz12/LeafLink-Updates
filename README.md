@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.19: Mehrere Lüfter gezielt einrichten
+
+[Android 3.3.19](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.19) wählt bei gleichnamigen Einrichtungsnetzen gezielt den passenden Lüfter. QR-Code oder manuelle Eingabe von Gerätenummer und Gerätecode werden unterstützt. Ziel-WLAN und Passwort bleiben für weitere Lüfter derselben Einrichtungsrunde verfügbar. Fünf zusätzliche Lüfter wurden nacheinander am echten Handy erfolgreich eingerichtet; die App zeigte danach alle drei Paare vollständig an.
+
 ## App 3.3.18 und Firmware 3.3.17 Beta
 
 [Android 3.3.18](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.18) filtert vorübergehende Fehler aus den Meldungen, zeigt einen dauerhaften Updatehinweis und unterstützt Webzugang sowie Hausplansicherung über Repeater.
