@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## App 3.3.22: Firmware-Abschluss nach IP-Wechsel
+
+[Android 3.3.22](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.22) findet gekoppelte Lüfter nach einem DHCP-Adresswechsel erneut und prüft die neue Adresse mit dem Geräteschlüssel. Gespeicherte Fehlversuche lassen sich über **Geräte prüfen → Fehlversuch prüfen** wieder aufnehmen; ein erneuter Upload benötigt eine ausdrückliche Bestätigung. Firmware 3.3.20 Beta und Wall 0.6.6 Beta bleiben aktuell.
+
 ## Firmware 3.3.20 Beta: IP-Konflikte und Routername
 
 [Firmware 3.3.20 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.20-beta) ergänzt ARP-Konflikterkennung und automatische neue DHCP-Anfragen ohne Geräteneustart. Der Routername lautet `Leaf-` plus Lüfternummer. Einrichtungs-AP und Kopplungen bleiben erhalten. Android 3.3.21 und Wall 0.6.6 Beta bleiben kompatibel. Automatisierte Prüfungen bestanden; ein realer Konflikt-/DHCP-Wechseltest steht noch aus. Details und Grenzen in der Releasebeschreibung.
