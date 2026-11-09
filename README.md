@@ -9,6 +9,12 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Firmware 3.3.19 Beta und App 3.3.21: Speicher und Temperaturanzeige
+
+[Firmware 3.3.19 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.19-beta) reserviert den Arbeitsbereich für die laufende verschlüsselte Bedienung und behebt die beobachtete Anmeldeblockade bei fragmentiertem Speicher. [Android 3.3.21](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.21) zeigt im Modus Sommerautomatik pro Lüfter Innen- und Außentemperatur auf der Gruppenseite. Beide Updates zusammen installieren; Wall 0.6.6 Beta bleibt kompatibel.
+
+Automatisierte Prüfungen und ein begrenzter realer Belastungstest bestanden. Ein uneingeschränkt neustartfreier Dauerbetrieb unter jeder Bedingung ist damit nicht nachgewiesen; geplante Update- und Wartungsneustarts bleiben erhalten. Details in den Releasebeschreibungen.
+
 ## Sommerautomatik: Firmware 3.3.18 Beta, App 3.3.20 und Wall 0.6.6 Beta
 
 [Firmware 3.3.18 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.18-beta) regelt die Sommerautomatik direkt auf den Lüftern: kurze Messläufe erfassen Innen- und Außenluft, anschließend wird innerhalb der Gruppe die kühlere geeignete Zuluftseite gewählt. Dauerhafte Kühlung startet oberhalb 23 °C innen bei mindestens 2 °C kühlerer Außenluft. Die Messläufe finden beim Start und alle fünf Minuten statt und können kurzzeitig wärmere Außenluft ansaugen.
