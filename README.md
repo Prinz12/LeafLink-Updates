@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Firmware 3.3.21 Beta und App 3.3.23: Service und Sommer-Gruppenwerte
+
+[Android 3.3.23](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.23) ergänzt die Sommerautomatik-Einstellungen pro Gruppe und zeigt Service 2 an. [Firmware 3.3.21 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.21-beta) zählt alle Motorbewegungen, quittiert fälligen Service nach 1,5 Sekunden Tastendruck und zeigt ihn mit Dauerlicht an. Service 2 wird standardmäßig nach 12960 Motorstunden fällig, etwa 18 Monaten Dauerbetrieb. Zuerst die App, danach alle beteiligten Lüfter aktualisieren; Beta-Versionen in der Firmwareauswahl aktivieren. Wall 0.6.6 Beta bleibt kompatibel. Automatisierte Prüfungen bestanden, praktischer Gerätetest noch ausstehend. Details zu Wartungsdaten und Kompatibilität in den Releasebeschreibungen.
+
 ## App 3.3.22: Firmware-Abschluss nach IP-Wechsel
 
 [Android 3.3.22](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.22) findet gekoppelte Lüfter nach einem DHCP-Adresswechsel erneut und prüft die neue Adresse mit dem Geräteschlüssel. Gespeicherte Fehlversuche lassen sich über **Geräte prüfen → Fehlversuch prüfen** wieder aufnehmen; ein erneuter Upload benötigt eine ausdrückliche Bestätigung. Firmware 3.3.20 Beta und Wall 0.6.6 Beta bleiben aktuell.
