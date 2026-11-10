@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Webanmeldung beim Service: Firmware 3.3.24 Beta
+
+[Firmware 3.3.24 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.24-beta) erhält die App-Webanmeldung beim Wechsel zur Serviceseite, Neuladen während der Anmeldung und wiederhergestellten Browserseiten. Die geschützte Anmeldung bleibt erforderlich; eine erfolgreiche App-Freigabe muss nicht erneut mit dem Gerätecode bestätigt werden. Nach dem Firmwareupdate die Webseite erneut aus der App öffnen. Android 3.3.26 und Wall 0.6.7 bleiben kompatibel. Installation durch den Nutzer.
+
 ## Fernneustart und VPN-Gerätesuche: Firmware 3.3.23 Beta, App 3.3.26
 
 [Firmware 3.3.23 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.23-beta) ermöglicht den geschützten Neustart über **Service & Diagnose → Servicemodus starten → Neutral neu starten** ohne Tastendruck am Lüfter. [Android 3.3.26](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.26) verbessert das Nachfinden über mehrere Geräteübersichten im VPN. Die Firmware bleibt gegen Neustarts während Updates oder ohne bestätigten neutralen Motorausgang gesperrt. Eine doppelte VPN-/DHCP-Adresse muss weiterhin im Router behoben werden; ein Neustart garantiert keine neue Adresse. Installation durch den Nutzer, praktischer Neustart-/VPN-Test dieses Releases noch ausstehend. Wall 0.6.7 bleibt kompatibel.
