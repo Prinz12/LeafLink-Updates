@@ -1,5 +1,12 @@
 # LeafLink Updates
 
+## App 3.3.28: QR-Scanner mit Scanrahmen
+
+[Android 3.3.28](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.28) ergänzt einen animierten Scanrahmen, einen grünen Erfolgsrahmen mit Häkchen, kurze Vibration und eine Taschenlampentaste. Nur vollständig im Rahmen liegende Gerätecodes werden übernommen. Die Verarbeitung bleibt lokal auf dem Handy.
+
+Als App-Update installieren; vorhandene Daten und Kopplungen bleiben erhalten. Der Protokollstand entspricht 3.3.27. Bei älteren App-/Firmwareständen zunächst die nachfolgende Reihenfolge des Sicherheitsupdates beachten.
+
+
 ## Sicherheitsupdate: Nonce-Korrektur
 
 ## Reihenfolge für dieses Sicherheitsupdate
