@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Adaptive Sommermessung: App 3.3.25, Firmware 3.3.22 Beta, Wall 0.6.7 Beta
+
+[Android 3.3.25](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.25), [Lüfterfirmware 3.3.22 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.22-beta) und [Wall Control 0.6.7 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.7-beta) ergänzen die wählbare Messung bis zur Temperaturstabilisierung. Beide Lüfter müssen ihre Messung bestätigen; bei Zeitablauf gibt es keine neue Kühlfreigabe. Auswahl über App, Wall und Web. Alle Gruppenlüfter aktualisieren. Installation durch den Nutzer; thermischer Praxistest noch ausstehend. Details in den Releasebeschreibungen.
+
 ## Firmware 3.3.21 Beta und App 3.3.23: Service und Sommer-Gruppenwerte
 
 [Android 3.3.23](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.23) ergänzt die Sommerautomatik-Einstellungen pro Gruppe und zeigt Service 2 an. [Firmware 3.3.21 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.21-beta) zählt alle Motorbewegungen, quittiert fälligen Service nach 1,5 Sekunden Tastendruck und zeigt ihn mit Dauerlicht an. Service 2 wird standardmäßig nach 12960 Motorstunden fällig, etwa 18 Monaten Dauerbetrieb. Zuerst die App, danach alle beteiligten Lüfter aktualisieren; Beta-Versionen in der Firmwareauswahl aktivieren. Wall 0.6.6 Beta bleibt kompatibel. Automatisierte Prüfungen bestanden, praktischer Gerätetest noch ausstehend. Details zu Wartungsdaten und Kompatibilität in den Releasebeschreibungen.
