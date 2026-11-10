@@ -9,6 +9,10 @@ die vorhandenen App-Daten. Geräte lassen sich nur innerhalb desselben Protokoll
 Kanal: `android-dual` · Release-Tags: `app-dual-v…` · Android-Paket: `de.prinz.leaflink`.
 Die App prüft Dateigröße, SHA-256, Paketkennung, Versionscode und Signatur vor der Installation.
 
+## Fernneustart und VPN-Gerätesuche: Firmware 3.3.23 Beta, App 3.3.26
+
+[Firmware 3.3.23 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.23-beta) ermöglicht den geschützten Neustart über **Service & Diagnose → Servicemodus starten → Neutral neu starten** ohne Tastendruck am Lüfter. [Android 3.3.26](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.26) verbessert das Nachfinden über mehrere Geräteübersichten im VPN. Die Firmware bleibt gegen Neustarts während Updates oder ohne bestätigten neutralen Motorausgang gesperrt. Eine doppelte VPN-/DHCP-Adresse muss weiterhin im Router behoben werden; ein Neustart garantiert keine neue Adresse. Installation durch den Nutzer, praktischer Neustart-/VPN-Test dieses Releases noch ausstehend. Wall 0.6.7 bleibt kompatibel.
+
 ## Adaptive Sommermessung: App 3.3.25, Firmware 3.3.22 Beta, Wall 0.6.7 Beta
 
 [Android 3.3.25](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.25), [Lüfterfirmware 3.3.22 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.22-beta) und [Wall Control 0.6.7 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.7-beta) ergänzen die wählbare Messung bis zur Temperaturstabilisierung. Beide Lüfter müssen ihre Messung bestätigen; bei Zeitablauf gibt es keine neue Kühlfreigabe. Auswahl über App, Wall und Web. Alle Gruppenlüfter aktualisieren. Installation durch den Nutzer; thermischer Praxistest noch ausstehend. Details in den Releasebeschreibungen.
