@@ -9,7 +9,9 @@ vor der abschließenden Prüfung seine Funk- und Empfangspuffer frei. Die App
 meldet Erfolg erst nach dem bestätigten Start des richtigen Images.
 Zuerst die App aktualisieren. Die Korrektur muss auf dem Repeater selbst
 installiert sein; bei bisherigem Speichermangel kann dafür einmalig Routerbetrieb
-nötig sein. Der reale Folgetest nach dieser Erstinstallation steht noch aus.
+nötig sein. Der vollständige Folgetest auf einem realen Repeater bestand:
+747652 Byte übertragen, bestätigter Slotwechsel, Einstellungen und Hausplan
+erhalten. Gesamtdauer 6 Minuten 7 Sekunden, ohne weiteren Rollenwechsel.
 
 ## App 3.3.37 und Firmware 3.3.30: Auto-Anzeige und Gatewaywechsel
 
