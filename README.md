@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## App 3.3.32: VPN-Suche nach Adresswechseln
+
+[Android 3.3.32](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.32) findet bekannte Lüfter bei geöffneter App auch dann im bisherigen Heimnetz wieder, wenn alle gespeicherten Adressen gewechselt haben. Neue direkt bestätigte Adressen ersetzen alte automatisch. Kopplungen, Räume und manuelle Ausschlüsse bleiben erhalten. Installation als App-Update durch den Nutzer; für diese Korrektur kein zusätzliches Firmware- oder Wall-Update nötig. Die Versionsanforderungen des Sicherheitsupdates unten gelten weiterhin.
+
 ## App 3.3.28: QR-Scanner mit Scanrahmen
 
 [Android 3.3.28](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.28) ergänzt einen animierten Scanrahmen, einen grünen Erfolgsrahmen mit Häkchen, kurze Vibration und eine Taschenlampentaste. Nur vollständig im Rahmen liegende Gerätecodes werden übernommen. Die Verarbeitung bleibt lokal auf dem Handy.
