@@ -1,5 +1,13 @@
 # LeafLink Updates
 
+## App 3.3.35: Korrigierte Verbindungsprüfung
+
+[Android 3.3.35](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.35)
+enthält alle Darstellungskorrekturen aus 3.3.34. Zusätzlich berücksichtigt der
+Verbindungstest verzögerte Antworten bis drei Sekunden und die 250-ms-Antwortbegrenzung
+der Firmware. So erzeugen zu schnelle Prüfanfragen keine zusätzlichen Warnungen.
+Als Update installieren; Kopplungen und Einstellungen bleiben erhalten.
+
 ## App 3.3.34: Stabile Netzwerkübersicht
 
 [Android 3.3.34](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.34)
