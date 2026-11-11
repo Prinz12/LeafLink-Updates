@@ -1,5 +1,16 @@
 # LeafLink Updates
 
+## App 3.3.38 und Firmware 3.3.31: Speicher beim Repeater-Update
+
+[Android 3.3.38](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.38)
+und [Firmware 3.3.31 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.31-beta)
+trennen die Firmwareübertragung von der Signaturprüfung. Der Repeater gibt
+vor der abschließenden Prüfung seine Funk- und Empfangspuffer frei. Die App
+meldet Erfolg erst nach dem bestätigten Start des richtigen Images.
+Zuerst die App aktualisieren. Die Korrektur muss auf dem Repeater selbst
+installiert sein; bei bisherigem Speichermangel kann dafür einmalig Routerbetrieb
+nötig sein. Der reale Folgetest nach dieser Erstinstallation steht noch aus.
+
 ## App 3.3.37 und Firmware 3.3.30: Auto-Anzeige und Gatewaywechsel
 
 [Android 3.3.37](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.37)
