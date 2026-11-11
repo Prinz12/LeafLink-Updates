@@ -1,5 +1,17 @@
 # LeafLink Updates
 
+## App 3.3.33: Netzwerkübersicht und Verbindungsprüfung
+
+[Android 3.3.33](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.33)
+ergänzt eine grafische Netzwerkübersicht mit direkten Gateways und gemeldeten
+Repeaterketten bis sechs Funkhops. Die Geräteprüfung zeigt Antwortanzahl und
+mittlere Antwortzeit. Veraltete und unvollständige Routen bleiben erkennbar;
+die Endgeräteprüfung wird nicht als Messung einzelner Funkstrecken ausgegeben.
+Kompakte Karten und dauerhaft erreichbare Prüfschaltflächen unterstützen auch
+kleine Displays und Querformat. Als App-Update installieren; gegenüber 3.3.32
+ist kein zusätzliches Firmware- oder Wall-Update nötig. Die Anforderungen des
+Sicherheitsupdates unten gelten weiterhin.
+
 ## App 3.3.32: VPN-Suche nach Adresswechseln
 
 [Android 3.3.32](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.32) findet bekannte Lüfter bei geöffneter App auch dann im bisherigen Heimnetz wieder, wenn alle gespeicherten Adressen gewechselt haben. Neue direkt bestätigte Adressen ersetzen alte automatisch. Kopplungen, Räume und manuelle Ausschlüsse bleiben erhalten. Installation als App-Update durch den Nutzer; für diese Korrektur kein zusätzliches Firmware- oder Wall-Update nötig. Die Versionsanforderungen des Sicherheitsupdates unten gelten weiterhin.
