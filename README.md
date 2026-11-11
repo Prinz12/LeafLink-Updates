@@ -1,5 +1,17 @@
 # LeafLink Updates
 
+## App 3.3.36 und Firmware 3.3.29: Netzwerkanfragen und Gatewaywahl
+
+[Android 3.3.36](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.36)
+vermeidet konkurrierende Identitätsabfragen für gerade bestätigte Geräte.
+[Firmware 3.3.29 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.29-beta)
+berücksichtigt WLAN-Signal, beobachtete Beacon-Verluste und geschätzte Last bei
+der Gatewaywahl. Gestaffelte Haltezeiten stabilisieren die Auswahl; bei Ausfall
+wird ohne diese Wartezeit neu gewählt. Enthält außerdem die Speicher- und
+Zustellungskorrekturen für den Funktransport. Für die vollständige adaptive
+Auswahl alle beteiligten Gateways und Repeater aktualisieren.
+Als Updates installieren; Kopplungen und Einstellungen bleiben erhalten.
+
 ## App 3.3.35: Korrigierte Verbindungsprüfung
 
 [Android 3.3.35](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.35)
