@@ -1,5 +1,15 @@
 # LeafLink Updates
 
+## App 3.3.37 und Firmware 3.3.30: Auto-Anzeige und Gatewaywechsel
+
+[Android 3.3.37](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.37)
+behält die zuletzt bestätigte Installationsrichtung bei fehlenden Antworten
+markiert und kennzeichnet den fehlenden aktuellen Status separat.
+[Firmware 3.3.30 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.30-beta)
+gibt alte Repeater-Adressen nach einem bestätigten Gatewaywechsel frei.
+Für diese Firmwarekorrektur die Gateways aktualisieren; Repeater können
+auf 3.3.29 bleiben. Kopplungen und Einstellungen bleiben erhalten.
+
 ## App 3.3.36 und Firmware 3.3.29: Netzwerkanfragen und Gatewaywahl
 
 [Android 3.3.36](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.36)
