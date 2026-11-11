@@ -1,5 +1,14 @@
 # LeafLink Updates
 
+## App 3.3.34: Stabile Netzwerkübersicht
+
+[Android 3.3.34](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.34)
+korrigiert das Flackern bei Aktualisierungen und erhält die geöffnete Netzwerkseite
+beim Drehen. Handy und Router bleiben über der seitlich verschiebbaren Gerätekarte
+sichtbar. Aktuelle Wege sind durchgezogen; Diagnosehinweise nennen Lüfter und Grund.
+Als App-Update installieren; Kopplungen und Einstellungen bleiben erhalten.
+Gegenüber 3.3.33 ist kein Firmware- oder Wall-Update erforderlich.
+
 ## App 3.3.33: Netzwerkübersicht und Verbindungsprüfung
 
 [Android 3.3.33](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.33)
