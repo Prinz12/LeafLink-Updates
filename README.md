@@ -1,5 +1,16 @@
 # LeafLink Updates
 
+## Firmware 3.3.32: Automatische Gegenrichtung bei Repeatern
+
+[Firmware 3.3.32 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.32-beta)
+behebt fehlende Partnerdaten für die automatische Richtungszuordnung im
+Repeaterbetrieb. Gateways leiten diese Daten gezielt in die jeweilige Gruppe
+weiter, auch bei Partnern an unterschiedlichen Gateways.
+Beide Partner und ihre möglichen Gateways aktualisieren; bei wechselnden
+Rollen alle Lüfter auf denselben Stand bringen. Auto-Einstellung, Gruppen und
+Kopplungen beibehalten. App 3.3.38 bleibt passend. Die reale Gegenrichtung nach
+Installation ist noch zu bestätigen.
+
 ## App 3.3.38 und Firmware 3.3.31: Speicher beim Repeater-Update
 
 [Android 3.3.38](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.38)
