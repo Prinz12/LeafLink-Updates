@@ -1,5 +1,15 @@
 # LeafLink Updates
 
+## App 3.3.40 und Firmware 3.3.34: Weniger OTA-Wiederholungen
+
+[App 3.3.40](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.40)
+und [Firmware 3.3.34 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.34-beta)
+verbinden kleinere Funkblöcke mit einer strikt geordneten Gateway-Queue.
+Im Vergleich an 1255: 137 auf 97 Wiederholungen und 292,031 auf 261,423 Sekunden
+über denselben direkten Gateway. Start und Datenerhalt wurden bestätigt.
+Für diesen Vorteil App und verwendete Gateways aktualisieren; der Repeater
+benötigt mindestens 3.3.33 für das Sendefenster.
+
 ## App 3.3.39 und Firmware 3.3.33: Adaptives Repeater-Update
 
 [Android 3.3.39](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.39)
