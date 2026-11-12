@@ -1,5 +1,13 @@
 # LeafLink Updates
 
+## App 3.3.41 und Firmware 3.3.35: Getaktete Repeater-Updates
+
+[App 3.3.41](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.41)
+und [Firmware 3.3.35 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.35-beta)
+verkürzen den Repeater-Erstzugriff und takten Gateway-Funkfragmente anhand
+der Sendebestätigungen. Zwei vollständige Vergleichsläufe an 1255 bestätigten
+kürzere Übertragungen mit weniger Wiederholungen und erhaltenen Einstellungen.
+
 ## App 3.3.40 und Firmware 3.3.34: Weniger OTA-Wiederholungen
 
 [App 3.3.40](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.40)
