@@ -1,5 +1,16 @@
 # LeafLink Updates
 
+## App 3.3.39 und Firmware 3.3.33: Adaptives Repeater-Update
+
+[Android 3.3.39](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.39)
+und [Firmware 3.3.33 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.33-beta)
+ergänzen ein auf zwei Blöcke begrenztes, an die Verbindung angepasstes Sendefenster.
+Im Vergleich auf Repeater 1255 sank die Übertragungszeit um 12.1 %;
+bestätigter Start, Einstellungen und Hausplan wurden nach beiden Transfers geprüft.
+Für das Fenster benötigt der Repeater bereits 3.3.33. Die Erstinstallation auf
+älterer Firmware verwendet den bisherigen Ablauf. Kein Rollenwechsel erforderlich,
+wenn der Repeater bereits den speichersparenden Updater ab 3.3.31 besitzt.
+
 ## Firmware 3.3.32: Automatische Gegenrichtung bei Repeatern
 
 [Firmware 3.3.32 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.32-beta)
