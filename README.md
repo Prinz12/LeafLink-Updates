@@ -1,5 +1,15 @@
 # LeafLink Updates
 
+## App 3.3.42 und Firmware 3.3.36: Lebensdauer bei Repeatern
+
+[App 3.3.42](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.42)
+und [Firmware 3.3.36 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.36-beta)
+beheben gemeinsam den fehlenden Abruf unter **Lebensdauer & Nutzung** bei
+Repeatern. Die App liest die Zähler über die verschlüsselte Geräteverbindung.
+Zuerst die App, anschließend die betroffenen Repeater aktualisieren;
+ein reines Gateway-Update reicht nicht. Vorhandene Zähler bleiben erhalten.
+Builds, Hosttests und Emulatorprüfung bestanden; physischer Repeatertest noch offen.
+
 ## App 3.3.41 und Firmware 3.3.35: Getaktete Repeater-Updates
 
 [App 3.3.41](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.41)
