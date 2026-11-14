@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## App 3.3.50: Geräteneutrale Netzwerkübersicht
+
+[App 3.3.50](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.50)
+bezeichnet das Bediengerät in der Netzwerkübersicht und den Verbindungsdetails
+als „Dieses Gerät“ statt „Dein Handy“.
+
 ## App 3.3.49: Einheitliche Netzwerkübersicht
 
 [App 3.3.49](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.49)
