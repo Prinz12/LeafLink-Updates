@@ -1,5 +1,21 @@
 # LeafLink Updates
 
+## App 3.3.45 und Firmware 3.3.43: Weiteres Bediengerät hinzufügen
+
+[App 3.3.45](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.45)
+und [Firmware 3.3.43 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.43-beta)
+ermöglichen die lokale Freigabe bereits gekoppelter Lüfter an ein weiteres Handy
+oder Tablet. Auf dem vorhandenen Handy in den Einstellungen **Weiteres
+Bediengerät hinzufügen**, auf dem neuen Gerät **Freigabe übernehmen** wählen.
+Beide Apps im selben Heim-WLAN geöffnet lassen. Das neue Gerät erhält eigene
+Zugänge; vorhandene Kopplungen bleiben erhalten. Zehn eingeschaltete Lüfter wurden
+zwischen Samsung-Handy und Samsung-Tablet erfolgreich freigegeben und erneut geprüft.
+
+Zuerst beide Apps aktualisieren, anschließend die Lüfter im Beta-Kanal.
+Ausgeschaltete Lüfter lassen sich später durch eine erneute Freigabe ergänzen.
+Die leere Startansicht erklärt die erste Einrichtung. Fabrikneue Lüfter starten
+die Kopplung erst nach dem vorgesehenen Tastendruck. Android 9 oder neuer erforderlich.
+
 ## App 3.3.44: Android 16 und zuverlässige Kommunikation
 
 [App 3.3.44 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.44).
