@@ -1,5 +1,15 @@
 # LeafLink Updates
 
+## App 3.3.44: Android 16 und zuverlässige Kommunikation
+
+[App 3.3.44 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.44).
+Voraussetzung ist jetzt **Android 9 oder neuer**. Die App verwendet `targetSdk 36`
+und unterstützt die neue System-Zurück-Navigation sowie angepasste Abstände zu
+Systemleisten und Kameraausschnitten. Tests auf Android 9, 16 und 17 sowie im
+Tabletfenster bestanden. Im Flottentest mit Firmware 3.3.42 Beta antworteten
+alle zwölf Lüfter auf 240/240 authentifizierte Abfragen, ohne Neustart.
+Als Update ohne Deinstallation installieren; Einstellungen und Kopplungen bleiben erhalten.
+
 ## App 3.3.42 und Firmware 3.3.36: Lebensdauer bei Repeatern
 
 [App 3.3.42](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.42)
