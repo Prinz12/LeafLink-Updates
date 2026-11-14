@@ -1,5 +1,14 @@
 # LeafLink Updates
 
+## App 3.3.47: Ausgeschaltete Lüfter nachträglich freigeben und App zurücksetzen
+
+[App 3.3.47](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.47)
+merkt ausdrücklich freigegebene, ausgeschaltete Lüfter verschlüsselt vor und
+holt deren Zugänge bei geöffneter App automatisch nach. Beim Ergänzen von
+Lüftern kann der vorhandene Hausplan erhalten bleiben. Die neue Aktion
+„App vollständig zurücksetzen“ löscht nach Bestätigung nur lokale App-Daten;
+Lüfter und ihre gespeicherten Pläne bleiben unverändert.
+
 ## App 3.3.46: Hausplan vollständig auf ein weiteres Gerät übernehmen
 
 [App 3.3.46](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.46)
