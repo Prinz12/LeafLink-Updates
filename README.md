@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## App 3.3.51: Geräteneutrale App-Texte
+
+[App 3.3.51](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.51)
+verwendet auch in Einrichtung, Freigaben, Hausplansicherung, Update-Hinweisen
+und Fehlermeldungen passende Bezeichnungen für Handys und Tablets.
+
 ## App 3.3.50: Geräteneutrale Netzwerkübersicht
 
 [App 3.3.50](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.50)
