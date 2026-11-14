@@ -1,5 +1,12 @@
 # LeafLink Updates
 
+## App 3.3.48: Gerätezugänge und Bedienung
+
+[App 3.3.48](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.48)
+ermöglicht das Entfernen eines Gerätezugangs an einzelnen oder allen gekoppelten
+Lüftern. Hinzu kommen eine scrollbare Geschossauswahl, bessere Schaltflächenabstände
+und weniger Neuaufbauten der Einstellungen bei laufenden Statusmeldungen.
+
 ## App 3.3.47: Ausgeschaltete Lüfter nachträglich freigeben und App zurücksetzen
 
 [App 3.3.47](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.47)
