@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## App 3.3.49: Einheitliche Netzwerkübersicht
+
+[App 3.3.49](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.49)
+vereinheitlicht das Farbschema der Netzwerkübersicht, ergänzt einen deutlich
+beschrifteten Zurück-Button und zeigt schmalere Lüfterkarten.
+
 ## App 3.3.48: Gerätezugänge und Bedienung
 
 [App 3.3.48](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.48)
