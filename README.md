@@ -1,5 +1,17 @@
 # LeafLink Updates
 
+## App 3.3.46: Hausplan vollständig auf ein weiteres Gerät übernehmen
+
+[App 3.3.46](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.46)
+ergänzt die Bediengeräte-Freigabe um den vollständigen gespeicherten Hausplan:
+Etagen, Raumformen und Maße, Materialien, Fenster, Türen, Durchgänge,
+Etagenverbindungen, Lüfterpositionen und sämtliche zugehörigen Planeinstellungen.
+Beide Apps aktualisieren und die Freigabe vom Gerät mit dem vollständigen Plan
+wiederholen. Der Quellplan ersetzt den bisherigen Empfängerplan ohne zusätzliche
+Sicherung. Bestehende Lüfterzugänge bleiben erhalten. Die Übernahme wurde zwischen
+Samsung-Handy und Samsung-Tablet einschließlich Inhaltsvergleich nach Neustart
+und Anzeige geprüft. Firmware 3.3.43 Beta bleibt unverändert.
+
 ## App 3.3.45 und Firmware 3.3.43: Weiteres Bediengerät hinzufügen
 
 [App 3.3.45](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.45)
