@@ -1,5 +1,12 @@
 # LeafLink Updates
 
+## App 3.3.52: Richtiger Firmware-Updateweg
+
+[App 3.3.52](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.52)
+wählt den Firmware-Updateweg anhand der aktuellen Netzrolle. Gateways werden
+nach einem HTTP-Lesefehler oder veralteten Mesh-Hinweis nicht mehr fälschlich
+als Repeater behandelt. Geräteidentität, Kopplung und Updateprüfung bleiben erhalten.
+
 ## App 3.3.51: Geräteneutrale App-Texte
 
 [App 3.3.51](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.51)
