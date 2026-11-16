@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "version": "3.3.53-beta",
+  "display_version": "LeafLink 3.3.53 Beta",
+  "release_date": "2026-11-16",
+  "channel": "beta-ab",
+  "target": "esp8266-esp12f-4mb",
+  "profile": "hardware",
+  "layout": 2,
+  "requires_boot_layout": 2,
+  "image_sha256": "32994c18caf925c8296073b457c33372a77f37f2ecee62da625bdb6faf3c141f",
+  "firmware": {
+    "file": "firmware.bin",
+    "size": 762100,
+    "sha256": "47f60056c4431a6ee65c289603e25809b33ca29b96f8c046cf452e8eba5ce326",
+    "url": "https://github.com/Prinz12/LeafLink-Updates/releases/download/ab-v3.3.53-beta/firmware.bin"
+  }
+}
