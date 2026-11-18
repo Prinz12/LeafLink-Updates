@@ -1,5 +1,13 @@
 # LeafLink Updates
 
+## App 3.3.56: Oberfläche und Übersetzungen
+
+[App 3.3.56](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.56)
+ordnet die Einstellungen neu, vereinheitlicht die Etagenbezeichnungen und
+korrigiert Systemabstände sowie die Höhen von Navigation und Hausplan-Details.
+Steuerungsrückmeldungen verdecken keine Icons mehr. Übersetzungen in allen zehn
+Sprachen wurden geprüft und ergänzt.
+
 ## App 3.3.52: Richtiger Firmware-Updateweg
 
 [App 3.3.52](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.52)
