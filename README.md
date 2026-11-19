@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Firmware 3.3.59 Beta
+
+Repeater können den Start neuer Firmware über ihr gekoppeltes Mesh bestätigen. [Firmware 3.3.59 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.59-beta)
+
 ## Firmware 3.3.58 Beta mit eigenem DHCP-Zeitfenster
 
 Bei der WLAN-Rückkehr wartet der Lüfter auf ein DHCP-Angebot und dessen Bestätigung. [Firmware 3.3.58 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.58-beta)
