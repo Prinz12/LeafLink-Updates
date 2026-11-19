@@ -1,5 +1,12 @@
 # LeafLink Updates
 
+## Firmware 3.3.54 Beta: Gruppentakt bei WLAN-Ausfall
+
+[Firmware 3.3.54 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.54-beta)
+führt den Lüftertakt während kurzer WLAN-Suchlücken lokal weiter und gleicht
+ihn mit zeitbezogenen Gruppenstatuspaketen ab. WLAN kehrt automatisch zurück.
+Alle Gruppenmitglieder aktualisieren; ein realer WLAN-Ausfalltest steht noch aus.
+
 ## App 3.3.56: Oberfläche und Übersetzungen
 
 [App 3.3.56](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.56)
