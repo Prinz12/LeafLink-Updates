@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## App 3.3.58 mit WLAN-Verwaltung
+
+Ab Lüfterfirmware 3.3.55 Beta lassen sich gespeicherte WLANs im Gerätedialog ersetzen oder ergänzen. [Android-App 3.3.58 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.58)
+
 ## Firmware 3.3.54 Beta: Gruppentakt bei WLAN-Ausfall
 
 [Firmware 3.3.54 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.54-beta)
