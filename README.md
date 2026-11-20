@@ -1,5 +1,12 @@
 # LeafLink Updates
 
+## App 3.3.64 – Meldungen für gespeicherte Lüfter
+
+Die App prüft gespeicherte Lüfter auch nach einem Neustart. Jeder Lüfter hebt seine
+Offline-Meldung mit seiner eigenen Antwort auf. Bestätigte Fehler bleiben bis zur
+Behebung oder zum manuellen Löschen sichtbar. Tritt ein behobener Fehler erneut
+auf, erscheint er wieder als ungelesen. [App 3.3.64 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.64).
+
 ## App 3.3.63: Fehlversuche direkt prüfen und Updatefolge fortsetzen
 
 [App 3.3.63 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.63).
