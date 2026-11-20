@@ -1,5 +1,13 @@
 # LeafLink Updates
 
+## App 3.3.62: Doppelte Lüfter in der Updateliste korrigiert
+
+[App 3.3.62 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.62).
+Die Firmware-Updateliste ordnet bekannte Lüfter anhand ihrer dauerhaften
+Gerätekennung zu. Alte IP-Adressen erzeugen nach einem Adresswechsel keine
+zusätzlichen unerreichbaren Einträge. Offene Updateversuche und ihre Prüfdaten
+bleiben erhalten. Für diese Korrektur ist nur das App-Update erforderlich.
+
 ## Sommerautomatik: 250 Sekunden und Stundenintervalle
 
 [Firmware 3.3.61 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.61-beta),
