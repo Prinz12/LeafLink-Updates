@@ -1,5 +1,14 @@
 # LeafLink Updates
 
+## Firmware 3.3.62 Beta: Sommermessung und kurze Tastendrücke
+
+[Firmware 3.3.62 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.62-beta).
+Die Firmware setzt den Motorbefehl nach geänderten Sommer-Einstellungen erneut
+und erkennt kurze Tastendrücke unabhängig von der Anzahl der Schleifendurchläufe.
+App und Wall Control bleiben kompatibel. Einstellungen und Kopplungen bleiben
+erhalten. Das passende Lizenz-/LGPL-Paket liegt der Veröffentlichung bei.
+
+
 ## App 3.3.64 – Meldungen für gespeicherte Lüfter
 
 Die App prüft gespeicherte Lüfter auch nach einem Neustart. Jeder Lüfter hebt seine
