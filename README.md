@@ -1,5 +1,17 @@
 # LeafLink Updates
 
+## Sommerautomatik: 250 Sekunden und Stundenintervalle
+
+[Firmware 3.3.61 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.61-beta),
+[App 3.3.61](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.61) und
+[Wall 0.6.10 Beta](https://github.com/Prinz12/LeafLink-Updates/releases/tag/wall-v0.6.10-beta)
+ermöglichen adaptive Messungen bis 250 Sekunden je Richtung und ein Messintervall
+von 1 bis 12 ganzen Stunden ab Messende. Standard: eine Stunde. Während der Kühlung
+werden die aktuellen Temperaturen weiter überwacht; das Stundenintervall verlängert
+nicht die Gültigkeit alter Werte. Alle Lüfter einer Sommergruppe benötigen 3.3.61.
+Kopplungen und weitere Einstellungen bleiben erhalten; Nextion HMI 302 bleibt
+unverändert. Installation durch den Nutzer, kein physischer Test dieses Builds.
+
 ## Firmware 3.3.59 Beta
 
 Repeater können den Start neuer Firmware über ihr gekoppeltes Mesh bestätigen. [Firmware 3.3.59 Beta herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v3.3.59-beta)
