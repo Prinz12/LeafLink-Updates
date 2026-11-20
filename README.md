@@ -1,5 +1,14 @@
 # LeafLink Updates
 
+## App 3.3.63: Fehlversuche direkt prüfen und Updatefolge fortsetzen
+
+[App 3.3.63 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.63).
+Nach dem Lauf können Fehlversuche direkt geprüft oder abgeschlossen werden.
+Ein Fehler eines Lüfters hält die übrigen ausgewählten Updates nicht mehr auf;
+offene Versuche bleiben gespeichert und werden nicht automatisch wiederholt.
+Gemeinsame Verbindungs-, Datei- und Speicherprobleme sowie ein ausdrücklicher
+Stopp halten die Folge weiterhin an. Für diese Änderung genügt das App-Update.
+
 ## App 3.3.62: Doppelte Lüfter in der Updateliste korrigiert
 
 [App 3.3.62 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v3.3.62).
