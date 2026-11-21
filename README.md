@@ -1,8 +1,8 @@
 # LeafLink Updates
 
-## App 4.0.1 und Lüfter-Firmware 4.0.0
+## App 4.0.4 und Lüfter-Firmware 4.0.0
 
-Zuerst die Android-App aktualisieren und anschließend die Firmware auf den gekoppelten A/B-Lüftern installieren. Für HTTPS richtet die gekoppelte LeafLink-App auf dem Administratorgerät das individuelle Lüfterzertifikat per WLAN ein. Das öffentliche Stammzertifikat der App auf jedem Bediengerät installieren. Die Hinweise zur Umstellung stehen bei der Firmware. [Android-App 4.0.1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.1) · [Lüfter-Firmware 4.0.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v4.0.0)
+Zuerst die Android-App aktualisieren und anschließend die Firmware auf den gekoppelten A/B-Lüftern installieren. Für HTTPS richtet die gekoppelte LeafLink-App auf dem Administratorgerät das individuelle Lüfterzertifikat per WLAN ein. Das öffentliche Stammzertifikat der App auf jedem Bediengerät installieren. Die Hinweise zur Umstellung stehen bei der Firmware. [Android-App 4.0.4](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.4) · [Lüfter-Firmware 4.0.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v4.0.0)
 
 ## Firmware 3.3.62 Beta: Sommermessung und kurze Tastendrücke
 
