@@ -1,8 +1,10 @@
 # LeafLink Updates
 
-## App 4.0.4 und Lüfter-Firmware 4.0.1
+## App 4.0.5 und Lüfter-Firmware 4.0.1
 
-Firmware 4.0.1 verbessert die lokale Namensauflösung für den HTTPS-Webzugriff bei knappem Arbeitsspeicher und pausierter Gerätesuche. In der App unter **Firmware-Updates** die Version prüfen und die gewünschten A/B-Lüfter auswählen. [Android-App 4.0.4](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.4) · [Lüfter-Firmware 4.0.1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v4.0.1)
+App 4.0.5 richtet den lokalen Webzugriff beim QR-Koppeln ein. Mit **WEB** öffnet sich die Lüfteroberfläche direkt in der App. [Android-App 4.0.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.5)
+
+Firmware 4.0.1 verbessert die lokale Namensauflösung für den HTTPS-Webzugriff bei knappem Arbeitsspeicher und pausierter Gerätesuche. In der App unter **Firmware-Updates** die Version prüfen und die gewünschten A/B-Lüfter auswählen. [Lüfter-Firmware 4.0.1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/ab-v4.0.1)
 
 ## Firmware 3.3.62 Beta: Sommermessung und kurze Tastendrücke
 
