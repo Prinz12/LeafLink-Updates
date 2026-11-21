@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "version": "4.0.1",
+  "display_version": "LeafLink 4.0.1",
+  "release_date": "2026-11-21",
+  "channel": "stable-ab",
+  "target": "esp8266-esp12f-4mb",
+  "profile": "hardware",
+  "layout": 2,
+  "requires_boot_layout": 2,
+  "image_sha256": "8796a6984cd51828f32210076d189f58d76f9f3e3afa7b627b4892c27e3f43de",
+  "firmware": {
+    "file": "firmware.bin",
+    "size": 860612,
+    "sha256": "634b66e0a3a33ffd6a3b92592c3f008a2a68999c987d1156efefd7215ff9059a",
+    "url": "https://github.com/Prinz12/LeafLink-Updates/releases/download/ab-v4.0.1/firmware.bin"
+  }
+}
