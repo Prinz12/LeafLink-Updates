@@ -4,4 +4,8 @@ Unter **Einstellungen → Gerätezugänge** lässt sich ein verlorenes Bedienger
 
 Zuerst die App auf allen weiter verwendeten Bediengeräten aktualisieren, anschließend die Lüfter. Für die App ist Android 9 oder neuer erforderlich. Die APK lässt sich über die bestehende Installation installieren.
 
-**Browserbedienung bei Bestandslüftern.** Für den Wechsel von 3.x auf die HTTPS-Oberfläche benötigt jeder Lüfter ein individuelles Zertifikat der lokalen CA. Die Einrichtung erfolgt einmal per USB. Auf jedem Bediengerät muss das öffentliche Stammzertifikat dieser CA als vertrauenswürdig eingerichtet sein. Den zertifizierten lokalen Gerätenamen im Browser öffnen.
+**Browserzugang ohne USB einrichten.** Nach dem Update auf dem gekoppelten Android-Gerät, das die Anlage verwalten soll, die Gerätedetails des Lüfters öffnen. **Browserzertifikat einrichten oder erneuern** wählen und bestätigen. Die App stellt das Zertifikat über WLAN aus und prüft den HTTPS-Zugang direkt am Lüfter.
+
+**Weitere Bediengeräte.** In der App **Stammzertifikat exportieren** wählen. Die öffentliche Datei `LeafLink-CA.crt` auf jedem gewünschten Bediengerät als vertrauenswürdige CA im Betriebssystem bzw. Browser installieren. Vorher den SHA-256-Fingerabdruck vergleichen. Den angezeigten Gerätenamen im lokalen Netz öffnen. Die Einrichtung benötigt keinen PC. Das Administratorgerät wird zum Erneuern der Zertifikate benötigt.
+
+**Verlust oder Wechsel des Administrators.** Gehen Bediengerät oder App-Daten verloren, das Einrichtungs-WLAN am Lüfter vor Ort öffnen und die Einrichtung mit dem neu gekoppelten Administratorgerät wiederholen. Anschließend dessen Stammzertifikat auf den Bediengeräten installieren.
