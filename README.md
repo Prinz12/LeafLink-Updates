@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.0.9 Beta 11
+
+Beim Wechsel der Netzwerkrolle kann die App den Lüfter über seinen aktuellen Netzpfad abfragen. In LeafLink unter **App-Updates → Beta-Versionen anzeigen** die Beta auswählen. [Android-App 4.0.9 Beta 11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.9-beta.11)
+
 ## Android-App 4.0.7
 
 „Geräte prüfen“ zeigt die gespeicherten Lüfter während der Suche an. Bei einer unterbrochenen HTTPS-Verbindung zur Updatevorbereitung wiederholt die App diesen Schritt einmal. [Android-App 4.0.7 herunterladen](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.7)
