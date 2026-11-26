@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.1.0 Beta 1
+
+In den Einstellungen lässt sich mit einem Tipp zwischen Kompaktansicht und Expertenansicht wechseln. Die Beta ist in der regulären App unter **App-Updates → Beta-Versionen anzeigen** verfügbar. [Android-App 4.1.0 Beta 1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.1.0-beta.1)
+
 ## Android-App 4.0.9 Beta 11
 
 Beim Wechsel der Netzwerkrolle kann die App den Lüfter über seinen aktuellen Netzpfad abfragen. In LeafLink unter **App-Updates → Beta-Versionen anzeigen** die Beta auswählen. [Android-App 4.0.9 Beta 11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.0.9-beta.11)
