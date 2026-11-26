@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.1
+
+Endgültig gelöschte LeafLink-Lüfter mit bestehender Kopplung lassen sich unter **Einstellungen → Neues Gerät anschließen → Lüfter im Heim-WLAN wieder verbinden** erneut aufnehmen. Die App prüft die Geräteidentität und übernimmt die bestehende Lüftungsgruppe. Die App ist unter **App-Updates** im regulären Updatekanal verfügbar. [Android-App 4.2.1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.1)
+
 ## Android-App und RTOS-Flottenfirmware 4.2.0
 
 In den Einstellungen wechselt ein Tipp zwischen **Kompakt** und **Experte**. Bestehende Installationen starten in **Experte**, abgeschlossene Neueinrichtungen in **Kompakt**. Wenn beide Lüfter einer Gruppe dauerhaft dieselbe Richtung melden, zeigt LeafLink einen Hinweis unter **Meldungen**. Die Einzelwahl der Richtung bleibt möglich. [Android-App 4.2.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.0)
