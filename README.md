@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## Android-App und RTOS-Flottenfirmware 4.2.0
+
+In den Einstellungen wechselt ein Tipp zwischen **Kompakt** und **Experte**. Bestehende Installationen starten in **Experte**, abgeschlossene Neueinrichtungen in **Kompakt**. Wenn beide Lüfter einer Gruppe dauerhaft dieselbe Richtung melden, zeigt LeafLink einen Hinweis unter **Meldungen**. Die Einzelwahl der Richtung bleibt möglich. [Android-App 4.2.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.0)
+
+Die RTOS-Flottenfirmware koordiniert im AUTO-Paarbetrieb die Gegenrichtung. Die App bietet das Paket für kompatible Lüfter an. Aktualisiere zuerst die App unter **App-Updates**. Öffne danach **Firmware-Updates**, tippe auf **Version prüfen** und anschließend auf **Geräte prüfen**. Beide Releases sind im regulären Updatekanal verfügbar. [RTOS-Flottenfirmware 4.2.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.0)
+
 ## Android-App 4.1.0 Beta 2 und RTOS-Firmware 4.0.108 Beta 16
 
 LeafLink meldet dauerhaft gleichgerichtete Lüftungsgruppen unter **Meldungen**. Die Installationsrichtung lässt sich weiterhin pro Lüfter einstellen. [Android-App 4.1.0 Beta 2](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.1.0-beta.2)
