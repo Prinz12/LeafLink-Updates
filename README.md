@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## Android-App und RTOS-Flottenfirmware 4.2.5
+
+Aktualisiere LeafLink zuerst unter **App-Updates**. Die App überträgt Firmware für ESP-NOW-Repeater mit LZ4-Kompression, wenn der Lüfter sie unterstützt. [Android-App 4.2.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.5)
+
+Die RTOS-Flottenfirmware hält den Funkpfad während eines Updates bis zum Abschluss oder Timeout fest. Die automatische Netzwerkwahl berücksichtigt Paketverluste und Antwortzeiten, wenn das Gateway die Messung unterstützt. Das signierte Flottenpaket ist unter **Firmware-Updates → Version prüfen → Geräte prüfen** für kompatible Lüfter verfügbar. [RTOS-Flottenfirmware 4.2.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.5)
+
 ## Android-App 4.2.1
 
 Endgültig gelöschte LeafLink-Lüfter mit bestehender Kopplung lassen sich unter **Einstellungen → Neues Gerät anschließen → Lüfter im Heim-WLAN wieder verbinden** erneut aufnehmen. Die App prüft die Geräteidentität und übernimmt die bestehende Lüftungsgruppe. Die App ist unter **App-Updates** im regulären Updatekanal verfügbar. [Android-App 4.2.1](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.1)
