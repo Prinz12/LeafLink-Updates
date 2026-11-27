@@ -1,5 +1,11 @@
 # LeafLink Updates
 
+## Android-App 4.2.10 und RTOS-Flottenfirmware 4.2.11
+
+Die Sommerautomatik zeigt unter jedem Innen- und Außenwert das Messwertalter für den jeweiligen Lüfter. Die App ist unter **App-Updates** im regulären Kanal verfügbar. [Android-App 4.2.10](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.10)
+
+Die RTOS-Firmware vergleicht für Start und Stopp dasselbe Temperaturpaar. Im festen Modus zählen die Proben aus dem aktuellen Messlauf. Nach dem Zurückschalten zur Sommerautomatik startet ein neuer Lauf und das Intervall beginnt ab seinem Ende. Das signierte Flottenpaket ist unter **Firmware-Updates → Version prüfen → Geräte prüfen** für kompatible Lüfter verfügbar. [RTOS-Flottenfirmware 4.2.11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.11)
+
 ## Android-App 4.2.9
 
 Aktualisiere LeafLink unter **App-Updates**. Eine Wall Control ab Firmware 0.7.4 lässt sich anschließend per QR-Code als Bediengerät hinzufügen. Die App gibt die ausgewählten, bereits gekoppelten Lüfter nach einer gemeinsamen Bestätigung frei. WLAN und Lüftungsgruppen bleiben erhalten. [Android-App 4.2.9](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.9)
