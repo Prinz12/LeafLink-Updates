@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.6
+
+Alte RTOS-Updateversuche lassen sich auch nach einem Kaltstart abschließen, sobald der Lüfter stabil erreichbar ist und seinen Firmwarestand bestätigt. Wähle unter **Firmware-Updates → Geräte prüfen** beim betroffenen Lüfter **Alten Versuch abschließen**. Die App gibt das Update danach wieder zur Auswahl frei. [Android-App 4.2.6](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.6)
+
 ## Android-App und RTOS-Flottenfirmware 4.2.5
 
 Aktualisiere LeafLink zuerst unter **App-Updates**. Die App überträgt Firmware für ESP-NOW-Repeater mit LZ4-Kompression, wenn der Lüfter sie unterstützt. [Android-App 4.2.5](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.5)
