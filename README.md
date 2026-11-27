@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.9
+
+Aktualisiere LeafLink unter **App-Updates**. Eine Wall Control ab Firmware 0.7.4 lässt sich anschließend per QR-Code als Bediengerät hinzufügen. Die App gibt die ausgewählten, bereits gekoppelten Lüfter nach einer gemeinsamen Bestätigung frei. WLAN und Lüftungsgruppen bleiben erhalten. [Android-App 4.2.9](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.9)
+
 ## Android-App 4.2.6
 
 Alte RTOS-Updateversuche lassen sich auch nach einem Kaltstart abschließen, sobald der Lüfter stabil erreichbar ist und seinen Firmwarestand bestätigt. Wähle unter **Firmware-Updates → Geräte prüfen** beim betroffenen Lüfter **Alten Versuch abschließen**. Die App gibt das Update danach wieder zur Auswahl frei. [Android-App 4.2.6](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.6)
