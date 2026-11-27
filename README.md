@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.11
+
+Nach einem abgebrochenen Firmware-Upload kann die App bei kompatiblen RTOS-Lüftern den erneut freigegebenen Upload über verschlüsseltes UDP senden. Die App prüft vor und nach dem Versuch den Firmwarestand, die Einstellungen und den Hausplan. [Android-App 4.2.11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.11)
+
 ## Android-App 4.2.10 und RTOS-Flottenfirmware 4.2.11
 
 Die Sommerautomatik zeigt unter jedem Innen- und Außenwert das Messwertalter für den jeweiligen Lüfter. Die App ist unter **App-Updates** im regulären Kanal verfügbar. [Android-App 4.2.10](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.10)
