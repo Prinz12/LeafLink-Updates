@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.13
+
+Beim Speichern der Sommerautomatik zeigt die App ungültige Werte direkt am betroffenen Feld mit dem zulässigen Bereich an. Das Update ist unter **App-Updates** verfügbar. [Android-App 4.2.13](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.13)
+
 ## Android-App 4.2.12 und RTOS-Flottenfirmware 4.2.58
 
 Aktualisiere zuerst die App unter **App-Updates**. Ältere RTOS-Firmware erhält das signierte Flottenupdate über verschlüsseltes UDP. Mit korrigierter Firmware bevorzugt die App HTTPS bei direkter WLAN-Verbindung. Über andere Lüfter bleibt verschlüsseltes UDP verfügbar. [Android-App 4.2.12](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.12) · [RTOS-Flottenfirmware 4.2.58](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.58)
