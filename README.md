@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.12 und RTOS-Flottenfirmware 4.2.58
+
+Aktualisiere zuerst die App unter **App-Updates**. Ältere RTOS-Firmware erhält das signierte Flottenupdate über verschlüsseltes UDP. Mit korrigierter Firmware bevorzugt die App HTTPS bei direkter WLAN-Verbindung. Über andere Lüfter bleibt verschlüsseltes UDP verfügbar. [Android-App 4.2.12](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.12) · [RTOS-Flottenfirmware 4.2.58](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.58)
+
 ## Android-App 4.2.11
 
 Nach einem abgebrochenen Firmware-Upload kann die App bei kompatiblen RTOS-Lüftern den erneut freigegebenen Upload über verschlüsseltes UDP senden. Die App prüft vor und nach dem Versuch den Firmwarestand, die Einstellungen und den Hausplan. [Android-App 4.2.11](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.11)
