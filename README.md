@@ -1,5 +1,13 @@
 # LeafLink Updates
 
+## RTOS-Flottenfirmware 4.2.59
+
+Die Lüfter übermitteln Filter- und Servicezähler für die Anzeige auf der nativen Wall Control. In der LeafLink-App unter **Firmware-Updates → Version prüfen** nach der neuen Version suchen. [RTOS 4.2.59 und Hinweise zu kompatiblen Geräten](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.59)
+
+## Windows-Serienflasher 1.18.0
+
+Der serielle Prüfstand zeigt die Sommerparameter unterstützter RTOS-Lüfter an und liest die gespeicherten Werte zurück. Die Aktualisierung ist unter **App-Update → Jetzt prüfen** verfügbar. [Windows-Paket 1.18.0](https://github.com/Prinz12/LeafLink-Updates/releases/tag/flasher-v1.18.0)
+
 ## Android-App 4.2.13
 
 Beim Speichern der Sommerautomatik zeigt die App ungültige Werte direkt am betroffenen Feld mit dem zulässigen Bereich an. Das Update ist unter **App-Updates** verfügbar. [Android-App 4.2.13](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.13)
