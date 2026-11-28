@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "version": "4.2.63",
+  "display_version": "LeafLink RTOS 4.2.63",
+  "release_date": "2026-11-28",
+  "channel": "stable-rtos-ab",
+  "target": "esp8266-esp12f-4mb",
+  "profile": "hardware",
+  "layout": 2,
+  "requires_boot_layout": 2,
+  "image_sha256": "53e2566f15d31d13c8d85000bb37340ed845622751b1a96eb95422e95dbeea63",
+  "firmware": {
+    "file": "firmware.bin",
+    "size": 921108,
+    "sha256": "59107889d06198ce13393d8c36ca5a99f585e1a004c38cc32c8885f1ac0b62c3",
+    "url": "https://github.com/Prinz12/LeafLink-Updates/releases/download/rtos-ab-v4.2.63/firmware.bin"
+  },
+  "rtos_scope": "fleet",
+  "source_image_sha256": "40ae0570daf1f07c88146522f65a59ae8220e47cde2a6e054ac63f951949f796",
+  "rtos_compatible_sources": [
+    {
+      "version": "4.1.0",
+      "image_sha256": "e8b17978bc354feb805961f0e035b120b9aa9db39cfea0dd5a35860c5add8641"
+    },
+    {
+      "version": "4.2.0",
+      "image_sha256": "c4439db227b26969318617575e73aa68618b12c06e74ca2f5f7024e2349eaee9"
+    },
+    {
+      "version": "4.2.1",
+      "image_sha256": "f5d726f551c5c9673f95bec23814625a27650d228436fdc67e55472c32b74c3f"
+    },
+    {
+      "version": "4.2.5",
+      "image_sha256": "69571037360e8a927df9d2c256b0f10b074118fc4c34c6c0c2343f24f90f7e0d"
+    },
+    {
+      "version": "4.2.7",
+      "image_sha256": "8cc93062be134589188f1bf701ff80d151ba2432350dc67cf97fa66d66c1b2dd"
+    },
+    {
+      "version": "4.2.10",
+      "image_sha256": "1bb658cefed7e6cbca53c4df75dc9d9c38dce58427d5ed3ecb3f1c732a97fce7"
+    },
+    {
+      "version": "4.2.58",
+      "image_sha256": "74cf4ee8d42ca478304fbd415c4b843ef9c6101cf0d9b4ccc0233a7916e8a563"
+    }
+  ]
+}

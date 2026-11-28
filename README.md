@@ -1,5 +1,9 @@
 # LeafLink Updates
 
+## Android-App 4.2.14 und RTOS-Flottenfirmware 4.2.63
+
+Die App zeigt Filterlaufzeiten und Wartungsintervalle gekoppelter RTOS-Lüfter wieder an. Die Lüfterfirmware kann bei einem Ausfall des direkten Partnertakts einen dritten Lüfter als Vermittler nutzen. Die Firmwarehinweise beschreiben die Rückkehr zum Direktfunk und die Speicherung der Wartungszähler. [Android-App 4.2.14](https://github.com/Prinz12/LeafLink-Updates/releases/tag/app-dual-v4.2.14) · [RTOS 4.2.63](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.63)
+
 ## RTOS-Flottenfirmware 4.2.59
 
 Die Lüfter übermitteln Filter- und Servicezähler für die Anzeige auf der nativen Wall Control. In der LeafLink-App unter **Firmware-Updates → Version prüfen** nach der neuen Version suchen. [RTOS 4.2.59 und Hinweise zu kompatiblen Geräten](https://github.com/Prinz12/LeafLink-Updates/releases/tag/rtos-ab-v4.2.59)
